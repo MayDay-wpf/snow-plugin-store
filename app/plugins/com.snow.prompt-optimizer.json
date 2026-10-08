@@ -1,0 +1,17 @@
+{
+  "id": "com.snow.prompt-optimizer",
+  "kind": "plugin",
+  "name": { "default": "Prompt Optimizer", "zh-CN": "提示词优化", "zh-TW": "提示詞優化" },
+  "description": { "default": "Configure rewriting rules and optimize drafts from the input toolbar with safe fill and undo. Requires the new host plugin APIs.", "zh-CN": "配置优化规则、上下文与模型，输入栏一键改写，安全回填与还原，不自动发送。需要新版宿主插件接口。", "zh-TW": "設定優化規則、上下文與模型，輸入欄一鍵改寫，安全回填與還原，不自動傳送。需要新版宿主外掛介面。" },
+  "author": "BaSui01",
+  "repo": "https://github.com/BaSui01/snow-plugins",
+  "homepage": "https://github.com/BaSui01/snow-plugins/tree/main/plugins/prompt-optimizer",
+  "version": "1.1.0",
+  "tag": "v1.1.0-preview.1",
+  "asset": "prompt-optimizer-1.1.0.zip",
+  "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/v1.1.0-preview.1/prompt-optimizer-1.1.0.zip",
+  "sha256": "feaffabff1e50675dcb71a24aa9b8e22ecf7c743a9c528bb652fc090ae73b3f2",
+  "privacy": ["messages"],
+  "tags": ["提示词", "优化", "输入栏"],
+  "icon": "lucide:WandSparkles"
+}

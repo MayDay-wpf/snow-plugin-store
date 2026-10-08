@@ -41,5 +41,33 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app/registry.json
-          git diff --cached --quiet && echo "registry.json is up to date" || (git commit -m "chore: rebuild registry.json" && git push)
+
+          # main may receive new commits (e.g. a merged PR) between checkout and push;
+          # sync first, then rebuild, and retry on the latest main if the push is rejected.
+          for attempt in 1 2 3 4 5; do
+            # discard build output from the previous steps: pull --rebase needs a clean worktree
+            git reset --hard HEAD
+            git pull --rebase origin main
+
+            node app/scripts/build-registry.mjs
+            git add app/registry.json
+
+            if git diff --cached --quiet; then
+              echo "registry.json is up to date"
+              exit 0
+            fi
+
+            git commit -m "chore: rebuild registry.json"
+
+            if git push origin main; then
+              echo "Pushed rebuilt registry.json (attempt ${attempt})"
+              exit 0
+            fi
+
+            echo "Push rejected - retrying on the latest main..."
+            git reset --hard HEAD~1
+            sleep 5
+          done
+
+          echo "::error::Failed to push rebuilt registry.json after 5 attempts"
+          exit 1
