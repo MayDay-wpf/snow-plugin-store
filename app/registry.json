@@ -11,17 +11,17 @@
         "zh-TW": "檔案瀏覽器"
       },
       "description": {
-        "default": "Browse local workspace with file preview, Markdown preview, Git status, terminal and project command running.",
-        "zh-CN": "本地工作区文件浏览器，支持代码与 Markdown 预览、Git 状态、交互式终端和项目命令运行。",
-        "zh-TW": "本機工作區檔案瀏覽器，支援程式碼與 Markdown 預覽、Git 狀態、互動式終端機與專案命令執行。"
+        "default": "Browse local workspace with file preview, Markdown preview, Git status, REST request sending, terminal and project command running.",
+        "zh-CN": "本地工作区文件浏览器，支持代码与 Markdown 预览、Git 状态、REST 请求发送、交互式终端和项目命令运行。",
+        "zh-TW": "本機工作區檔案瀏覽器，支援程式碼與 Markdown 預覽、Git 狀態、REST 請求送出、互動式終端機與專案命令執行。"
       },
       "author": "xqchen",
       "repo": "https://github.com/xqchencn/snow-file-explorer",
       "homepage": "https://github.com/xqchencn/snow-file-explorer",
-      "version": "1.1.0",
-      "tag": "v1.1.0",
-      "asset": "snow-file-explorer-v1.1.0.zip",
-      "sha256": "8577447242ea628b4ae0d78ec0f8c4c1f73294e9a874ea8f878e93a71bb7e1d2",
+      "version": "1.1.1",
+      "tag": "v1.1.1",
+      "asset": "snow-file-explorer-v1.1.1.zip",
+      "sha256": "f2a670f85fc9f5b984f13990b41e5abb013bb1acb72d107c3bfc30822c48d6ae",
       "privacy": [
         "filesystem",
         "terminal"
@@ -30,6 +30,8 @@
         "file-explorer",
         "workspace",
         "git",
+        "http",
+        "rest",
         "terminal",
         "run-config"
       ],

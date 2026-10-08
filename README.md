@@ -29,7 +29,28 @@ SHA-256 校验，校验通过再安装。
 1. 将插件目录打包为 zip：`plugin.json` 位于 zip 根目录，不要套一层额外的文件夹；
 2. 在插件自己的 GitHub 仓库创建 Release，tag 建议使用语义化版本（如 `v1.2.0`），将 zip 作为 Release 资产上传。
 
-### 3. 计算 SHA-256
+### 3. 取 SHA-256
+
+**首选：直接读 Release 的 API。** 地址按仓库与 tag 拼：
+
+```text
+https://api.github.com/repos/<owner>/<repo>/releases/tags/<tag>
+```
+
+例如 `https://api.github.com/repos/xqchencn/snow-file-explorer/releases/tags/v1.1.1`。
+浏览器打开即可拿到 JSON（未登录有速率限制），用到的字段：
+
+| 字段 | 用途 |
+| --- | --- |
+| `tag_name` | 条目的 `tag` |
+| `assets[].name` | 条目的 `asset`（取 zip 那一条，忽略 `.sha256`、`.txt` 之类附属资产） |
+| `assets[].digest` | 条目的 `sha256`，形如 `sha256:<64 位十六进制>`，去掉 `sha256:` 前缀填入 |
+| `assets[].size` | 核对拿的是不是同一个文件（与本地 zip 字节数一致） |
+| `assets[].browser_download_url` | 核对推导出的下载地址 |
+
+> 坑：Release 若同时上传了 `<zip>.sha256` 这类校验文件，那条资产自己的 `digest` 是**校验文件**的哈希，
+> 不是 zip 的哈希。只认 zip 那一条。
+> 老 Release 可能没有 `digest` 字段，或你更想自己算，就回退到本地计算：
 
 ```bash
 # Linux / macOS
@@ -47,6 +68,10 @@ Get-FileHash .\my-plugin-1.2.0.zip -Algorithm SHA256
 node app/scripts/validate-registry.mjs   # 校验全部条目
 node app/scripts/build-registry.mjs      # 本地重新生成 app/registry.json
 ```
+
+跑完聚合脚本后把生成的 `app/registry.json` 与条目源文件一起提交也可以（索引不手写，只跑脚本），
+这样单看一次提交就能同时核对条目与索引。版本更新提交至少改这四个字段：
+`version`、`tag`、`asset`、`sha256`；新增能力时顺带补 `description`（三语）与 `tags` 检索词。
 
 ### 5. 合并生效
 
