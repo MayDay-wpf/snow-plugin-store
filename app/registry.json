@@ -99,6 +99,39 @@
       "minAppVersion": "0.4.16"
     },
     {
+      "id": "com.snow.session-track",
+      "kind": "plugin",
+      "name": {
+        "default": "Session Track",
+        "zh-CN": "会话轨迹",
+        "zh-TW": "會話軌跡"
+      },
+      "description": {
+        "default": "Live session trajectory and run data: streaming metrics, TODO progress, tool-call timeline, file changes and sub-agents, following the active conversation.",
+        "zh-CN": "实时查看会话的运行轨迹与数据：流式指标、TODO 进度、工具调用时间线、文件改动与子代理，跟随当前会话自动切换。",
+        "zh-TW": "即時檢視會話的執行軌跡與資料：串流指標、TODO 進度、工具呼叫時間軸、檔案變更與子代理，跟隨當前會話自動切換。"
+      },
+      "author": "MayDay-wpf",
+      "repo": "https://github.com/MayDay-wpf/snow-track-plugin",
+      "homepage": "https://github.com/MayDay-wpf/snow-track-plugin",
+      "version": "1.0.0",
+      "tag": "v1.0.0",
+      "asset": "snow-track-plugin-1.0.0.zip",
+      "sha256": "f405c8009affdf1dcc42a46ea70b0832f22fcccea177434f05edb5756c43f738",
+      "privacy": [
+        "conversations",
+        "messages"
+      ],
+      "tags": [
+        "会话",
+        "轨迹",
+        "运行数据",
+        "工具调用",
+        "子代理"
+      ],
+      "icon": "lucide:Route"
+    },
+    {
       "id": "com.wu.memcopy",
       "kind": "plugin",
       "name": {
