@@ -114,10 +114,10 @@
       "author": "MayDay-wpf",
       "repo": "https://github.com/MayDay-wpf/snow-track-plugin",
       "homepage": "https://github.com/MayDay-wpf/snow-track-plugin",
-      "version": "1.0.0",
-      "tag": "v1.0.0",
-      "asset": "snow-track-plugin-1.0.0.zip",
-      "sha256": "f405c8009affdf1dcc42a46ea70b0832f22fcccea177434f05edb5756c43f738",
+      "version": "1.0.1",
+      "tag": "v1.0.1",
+      "asset": "snow-track-plugin-1.0.1.zip",
+      "sha256": "79d1ad88673529ae3c34a2956973ca10106aae0241c20f564891933039cd8aa1",
       "privacy": [
         "conversations",
         "messages"
