@@ -1,0 +1,17 @@
+{
+  "id": "com.seagull.tps-metrics",
+  "name": { "default": "TPS Metrics", "zh-CN": "TPS 速度指标" },
+  "description": {
+    "default": "Industry-convention TPS / TTFT metrics panel for the focused conversation.",
+    "zh-CN": "按行业惯例口径计算当前会话的 TPS、TTFT 等流式指标：解码口径剔除首 token 延迟，另提供瞬时速度与会话累计均值。"
+  },
+  "author": "xb0or",
+  "repo": "https://github.com/xb0or/snow-tps-metrics",
+  "version": "0.1.0",
+  "tag": "v0.1.0",
+  "asset": "snow-tps-metrics-0.1.0.zip",
+  "sha256": "32bd4e16dbe81b771a44ad29333a721813066ec2d85d04be9b8d60a57114a0c0",
+  "privacy": ["conversations"],
+  "tags": ["metrics", "tps", "ttft", "monitoring"],
+  "icon": "lucide:Gauge"
+}
