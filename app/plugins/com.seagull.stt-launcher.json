@@ -6,14 +6,14 @@
     "zh-CN": "本地语音服务"
   },
   "description": {
-    "default": "Start / stop / restart the local whisper.cpp transcription service and manage its models (multi-backend CUDA / Vulkan / CPU). Must be used together with the snow-voice-io client script: this panel only runs the service and provides no voice input by itself.",
-    "zh-CN": "启动 / 停止 / 重启本地 whisper.cpp 转写服务并管理识别模型，支持 CUDA / Vulkan / CPU 多后端自动择优。需与 snow-voice-io 客户端脚本配合使用：本面板只负责起服务，本身不提供语音输入。"
+    "default": "Start / stop / restart the local whisper.cpp transcription service and manage its models (multi-backend CUDA / Vulkan / CPU). Must be used together with the \"Local Speech Service\" client script: this panel only runs the service and provides no voice input by itself.",
+    "zh-CN": "启动 / 停止 / 重启本地 whisper.cpp 转写服务并管理识别模型，支持 CUDA / Vulkan / CPU 多后端自动择优。需与「本地语音服务」客户端脚本配合使用：本面板只负责起服务，本身不提供语音输入。"
   },
   "repo": "https://github.com/xb0or/snow-plugins",
-  "version": "1.4.0",
-  "tag": "stt-launcher/v1.4.0",
-  "asset": "com.seagull.stt-launcher-1.4.0.zip",
-  "sha256": "6f67c9a5a8c14a8a43f26580b78c60740f3a1e5be7989a369b4d84b246d6a39a",
+  "version": "1.4.1",
+  "tag": "stt-launcher/v1.4.1",
+  "asset": "com.seagull.stt-launcher-1.4.1.zip",
+  "sha256": "43baaef81b789030437cd0efcabe3940e53254f562a17ab594f7b9772d2a4a3b",
   "author": "kedou",
   "privacy": [
     "terminal"
