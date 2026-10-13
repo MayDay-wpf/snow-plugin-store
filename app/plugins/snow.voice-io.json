@@ -2,19 +2,19 @@
   "kind": "script",
   "id": "snow.voice-io",
   "name": {
-    "default": "Voice Input & Read Aloud",
-    "zh-CN": "语音输入与朗读"
+    "default": "Local Speech Service",
+    "zh-CN": "本地语音服务"
   },
   "description": {
-    "default": "Client script: record voice input transcribed by a local Whisper service and read AI replies aloud with the system TTS. Must be used together with the snow-stt-launcher panel plugin, which starts/stops the local service and manages models.",
-    "zh-CN": "客户端脚本：语音输入（本机 Whisper 转写）+ AI 回复朗读（系统 TTS）。需与 snow-stt-launcher 面板插件配合使用：由面板一键启停本地转写服务、管理识别模型，本脚本本身不含模型。"
+    "default": "Client script: record voice input transcribed by a local Whisper service and read AI replies aloud with the system TTS. Must be used together with the \"Local Speech Service\" panel plugin, which starts/stops the local service and manages models.",
+    "zh-CN": "客户端脚本：语音输入（本机 Whisper 转写）+ AI 回复朗读（系统 TTS）。需与「本地语音服务」面板插件配合使用：由面板一键启停本地转写服务、管理识别模型，本脚本本身不含模型。"
   },
   "author": "kedou",
   "repo": "https://github.com/xb0or/snow-plugins",
-  "version": "1.4.0",
-  "tag": "voice-io/v1.4.0",
+  "version": "1.4.2",
+  "tag": "voice-io/v1.4.2",
   "asset": "snow-voice-io.user.js",
-  "sha256": "b0f2b3dc07a7891569aa7d4f148b524e50fd1b2472db4e2263a9ab2d834c9980",
+  "sha256": "0d367e31e322d5e2371cb558520be431005e521ea53956cc4d9f4e1d0eab8ad4",
   "privacy": [],
   "tags": [
     "client-script",
