@@ -303,11 +303,11 @@
       "author": "azhu949",
       "repo": "https://github.com/azhu949/snow-plugins",
       "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-fix-bench",
-      "version": "2.12.0",
-      "tag": "fix-bench/v2.12.0",
+      "version": "2.13.0",
+      "tag": "fix-bench/v2.13.0",
       "asset": "snow-fix-bench.user.js",
-      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.12.0/snow-fix-bench.user.js",
-      "sha256": "7061672ece605e3d2430257116f13fc18e5caa331cd9d6b0c71068ca4ffc5832",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.13.0/snow-fix-bench.user.js",
+      "sha256": "992ed031ea4f8febfcdf363d91ac3a09207c7f80a59746012ea094899b026111",
       "privacy": [
         "conversations",
         "messages",
@@ -456,6 +456,40 @@
         "子代理"
       ],
       "icon": "lucide:Route"
+    },
+    {
+      "id": "com.snowai.mimo-tts",
+      "kind": "plugin",
+      "name": {
+        "default": "Voice Reader (MiMo TTS)",
+        "zh-CN": "语音朗读",
+        "zh-TW": "語音朗讀"
+      },
+      "description": {
+        "default": "Read assistant replies with Xiaomi MiMo TTS: preset / designed / cloned voices, sentence pipeline playback, auto-broadcast, browser speech fallback and local audio history.",
+        "zh-CN": "接入小米 MiMo TTS 朗读助手回复：预置 / 设计 / 复刻三种音色，分句流水线播放、自动播报、浏览器本地语音兜底与本地音频历史。",
+        "zh-TW": "接入小米 MiMo TTS 朗讀助手回覆：預置 / 設計 / 複刻三種音色，分句流水線播放、自動播報、瀏覽器本地語音兜底與本地音訊歷史。"
+      },
+      "repo": "https://github.com/yy1588133/snow-plugin-mimo-tts",
+      "version": "1.2.4",
+      "tag": "v1.2.4",
+      "asset": "mimo-tts-1.2.4.zip",
+      "sha256": "6d97f8a2401ad808ed48a0390f15cf41148f2190c55c36fe5cd8c44f57c72125",
+      "author": "Snow AI",
+      "homepage": "https://github.com/yy1588133/snow-plugin-mimo-tts",
+      "privacy": [
+        "messages",
+        "network"
+      ],
+      "tags": [
+        "tts",
+        "voice",
+        "mimo",
+        "read-aloud",
+        "朗读",
+        "语音"
+      ],
+      "icon": "lucide:AudioLines"
     },
     {
       "id": "com.wu.memcopy",
