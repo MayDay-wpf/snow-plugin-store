@@ -1,0 +1,24 @@
+{
+  "id": "com.snowai.mimo-tts",
+  "kind": "plugin",
+  "name": {
+    "default": "Voice Reader (MiMo TTS)",
+    "zh-CN": "语音朗读",
+    "zh-TW": "語音朗讀"
+  },
+  "description": {
+    "default": "Read assistant replies with Xiaomi MiMo TTS: preset / designed / cloned voices, sentence pipeline playback, auto-broadcast, browser speech fallback and local audio history.",
+    "zh-CN": "接入小米 MiMo TTS 朗读助手回复：预置 / 设计 / 复刻三种音色，分句流水线播放、自动播报、浏览器本地语音兜底与本地音频历史。",
+    "zh-TW": "接入小米 MiMo TTS 朗讀助手回覆：預置 / 設計 / 複刻三種音色，分句流水線播放、自動播報、瀏覽器本地語音兜底與本地音訊歷史。"
+  },
+  "repo": "https://github.com/yy1588133/snow-plugin-mimo-tts",
+  "version": "1.2.4",
+  "tag": "v1.2.4",
+  "asset": "mimo-tts-1.2.4.zip",
+  "sha256": "6d97f8a2401ad808ed48a0390f15cf41148f2190c55c36fe5cd8c44f57c72125",
+  "author": "Snow AI",
+  "homepage": "https://github.com/yy1588133/snow-plugin-mimo-tts",
+  "privacy": ["messages", "network"],
+  "tags": ["tts", "voice", "mimo", "read-aloud", "朗读", "语音"],
+  "icon": "lucide:AudioLines"
+}
