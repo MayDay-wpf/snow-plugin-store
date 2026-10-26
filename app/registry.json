@@ -288,32 +288,25 @@
       "minAppVersion": "0.4.24"
     },
     {
+      "sha256": "4136a7593c3fe79d7b6e2e74f402a4435000f970c0ee0eb3db8cef4fb838da08",
       "id": "com.snow.fix-bench",
-      "kind": "script",
-      "name": {
-        "default": "Fix Bench",
-        "zh-CN": "修复工作台",
-        "zh-TW": "修復工作台"
-      },
-      "description": {
-        "default": "Client script plugin: a floating workbench opened from the chat input toolbar, covering code review, issue tracking, batch fixing and result cleanup; issues are stored per project in the script's private storage.",
-        "zh-CN": "客户端脚本插件：聊天输入框工具栏扳手入口与居中浮层工作台，覆盖代码审查、issue 跟踪、批量修复与结果清理的闭环；issue 按项目隔离保存在脚本私有存储。",
-        "zh-TW": "客戶端腳本外掛：聊天輸入框工具列扳手入口與置中浮層工作台，涵蓋程式碼審查、issue 追蹤、批次修復與結果清理的閉環；issue 依專案隔離儲存在腳本私有儲存。"
-      },
-      "author": "azhu949",
-      "repo": "https://github.com/azhu949/snow-plugins",
-      "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-fix-bench",
-      "version": "2.13.1",
-      "tag": "fix-bench/v2.13.1",
-      "asset": "snow-fix-bench.user.js",
-      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.13.1/snow-fix-bench.user.js",
-      "sha256": "cb8e269c5ec8ee9f63a6c510ba70be8a3e3784b106b662e242d8b5b82fdec26b",
       "privacy": [
         "conversations",
         "messages",
         "git",
         "mcpSecrets"
       ],
+      "version": "2.13.2",
+      "kind": "script",
+      "tag": "fix-bench/v2.13.2",
+      "author": "azhu949",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.13.2/snow-fix-bench.user.js",
+      "name": {
+        "zh-TW": "修復工作台",
+        "default": "Fix Bench",
+        "zh-CN": "修复工作台"
+      },
+      "asset": "snow-fix-bench.user.js",
       "tags": [
         "client-script",
         "code-review",
@@ -323,7 +316,14 @@
         "代码审查",
         "缺陷修复"
       ],
-      "icon": "lucide:Wrench"
+      "icon": "lucide:Wrench",
+      "repo": "https://github.com/azhu949/snow-plugins",
+      "description": {
+        "zh-TW": "客戶端腳本外掛：聊天輸入框工具列扳手入口與置中浮層工作台，涵蓋程式碼審查、issue 追蹤、批次修復與結果清理的閉環；issue 依專案隔離儲存在腳本私有儲存。",
+        "default": "Client script plugin: a floating workbench opened from the chat input toolbar, covering code review, issue tracking, batch fixing and result cleanup; issues are stored per project in the script's private storage.",
+        "zh-CN": "客户端脚本插件：聊天输入框工具栏扳手入口与居中浮层工作台，覆盖代码审查、issue 跟踪、批量修复与结果清理的闭环；issue 按项目隔离保存在脚本私有存储。"
+      },
+      "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-fix-bench"
     },
     {
       "id": "com.snow.novel-reader",
