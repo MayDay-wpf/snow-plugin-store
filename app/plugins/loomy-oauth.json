@@ -1,0 +1,23 @@
+{
+  "id": "loomy-oauth",
+  "kind": "plugin",
+  "name": {
+    "default": "Loomy Sign-in",
+    "zh-CN": "Loomy 登录",
+    "zh-TW": "Loomy 登入"
+  },
+  "description": {
+    "default": "Sign in to iFlytek Loomy with a phone number and an SMS code inside the OAuth dialog's own panel. The plugin runs a loopback-only (127.0.0.1) local service that sends and verifies the code, so the token still comes from the host's poll hook. Uses Loomy's OpenAI-compatible model gateway. Requires Snow App 0.5.6+. Session lasts 14 days with no refresh.",
+    "zh-CN": "在 OAuth 登录弹窗自带的 panel 里用手机号 + 短信验证码登录讯飞 Loomy：适配层起一个只监听 127.0.0.1 的本地服务负责发码与验码，令牌仍由宿主轮询取得。登录后使用其 OpenAI 兼容模型网关。需要 Snow App 0.5.6+。会话 14 天，无续期。",
+    "zh-TW": "在 OAuth 登入彈窗自帶的 panel 裡用手機號 + 簡訊驗證碼登入訊飛 Loomy：適配層起一個只監聽 127.0.0.1 的本機服務負責發碼與驗碼，權杖仍由宿主輪詢取得。登入後使用其 OpenAI 相容模型閘道。需要 Snow App 0.5.6+。工作階段 14 天，無續期。"
+  },
+  "repo": "https://github.com/xb0or/snow-plugins",
+  "version": "0.1.0",
+  "tag": "loomy-oauth/v0.1.0",
+  "asset": "loomy-oauth-0.1.0.zip",
+  "sha256": "781e94ce4149e6860182eef296e6a86bd2cb2327690cfb75ed5bb1ea1b6e6b00",
+  "author": "kedou",
+  "privacy": [],
+  "tags": ["oauth", "loomy", "iflytek", "phone-code", "sign-in", "panel"],
+  "icon": "lucide:KeyRound"
+}
