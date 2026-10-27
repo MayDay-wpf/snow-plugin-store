@@ -1,0 +1,23 @@
+{
+  "id": "raccoon-oauth",
+  "kind": "plugin",
+  "name": {
+    "default": "Raccoon Sign-in",
+    "zh-CN": "商汤小浣熊登录",
+    "zh-TW": "商湯小浣熊登入"
+  },
+  "description": {
+    "default": "Sign in to SenseTime Raccoon from one panel, two ways: open the desktop authorization page and let the 127.0.0.1 callback finish automatically, or paste the office-raccoon:// callback link (or a JWT access token) back into the panel. Requires Snow App 0.5.6+.",
+    "zh-CN": "在单一 panel 里用两种方式登录商汤小浣熊：点「打开授权页」在浏览器授权后由 127.0.0.1 本地回调自动完成，或把 office-raccoon:// 回调链接（也支持 JWT access token）粘回面板提交。需要 Snow App 0.5.6+。",
+    "zh-TW": "在單一 panel 裡用兩種方式登入商湯小浣熊：點「開啟授權頁」在瀏覽器授權後由 127.0.0.1 本機回呼自動完成，或把 office-raccoon:// 回呼連結（也支援 JWT access token）貼回面板提交。需要 Snow App 0.5.6+。"
+  },
+  "repo": "https://github.com/xb0or/snow-plugins",
+  "version": "0.1.0",
+  "tag": "raccoon-oauth/v0.1.0",
+  "asset": "raccoon-oauth-0.1.0.zip",
+  "sha256": "4e59bf1d666739f60d7bafa3bca6c5a0fcd52057961be96e9e2d4b6bdfeed421",
+  "author": "kedou",
+  "privacy": [],
+  "tags": ["oauth", "raccoon", "sensetime", "sign-in", "panel", "callback-paste"],
+  "icon": "lucide:KeyRound"
+}

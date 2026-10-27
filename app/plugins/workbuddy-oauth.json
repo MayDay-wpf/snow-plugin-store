@@ -1,0 +1,23 @@
+{
+  "id": "workbuddy-oauth",
+  "kind": "plugin",
+  "name": {
+    "default": "WorkBuddy Sign-in",
+    "zh-CN": "WorkBuddy 登录",
+    "zh-TW": "WorkBuddy 登入"
+  },
+  "description": {
+    "default": "Sign in to WorkBuddy China (copilot.tencent.com) or WorkBuddy Global (www.workbuddy.ai) from a single provider. The sign-in panel asks which site to use; the chosen site is stored on the profile, and refresh / models / quota / chat all follow it with the request origin rewritten per site. Requires Snow App 0.5.6+.",
+    "zh-CN": "一个 provider 覆盖 WorkBuddy 国内版（copilot.tencent.com）与国际版（www.workbuddy.ai）：登录 panel 里选站点，命中的站点记进档案，之后续期 / 模型 / 额度 / 对话都按它走，出站 URL 按站点改写 origin。需要 Snow App 0.5.6+。",
+    "zh-TW": "一個 provider 覆蓋 WorkBuddy 國內版（copilot.tencent.com）與國際版（www.workbuddy.ai）：登入 panel 裡選站點，命中的站點記進檔案，之後續期 / 模型 / 額度 / 對話都依它走，出站 URL 依站點改寫 origin。需要 Snow App 0.5.6+。"
+  },
+  "repo": "https://github.com/xb0or/snow-plugins",
+  "version": "0.1.0",
+  "tag": "workbuddy-oauth/v0.1.0",
+  "asset": "workbuddy-oauth-0.1.0.zip",
+  "sha256": "ab2ac960002c7ce90d73c5a7386fd71b20b66890566354d92c8b0bf929faa6cd",
+  "author": "kedou",
+  "privacy": [],
+  "tags": ["oauth", "workbuddy", "tencent", "multi-site", "sign-in", "panel"],
+  "icon": "lucide:KeyRound"
+}
