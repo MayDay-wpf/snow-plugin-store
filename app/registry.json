@@ -526,6 +526,66 @@
       "icon": "lucide:Copy"
     },
     {
+      "id": "loomy-oauth",
+      "kind": "plugin",
+      "name": {
+        "default": "Loomy Sign-in",
+        "zh-CN": "Loomy 登录",
+        "zh-TW": "Loomy 登入"
+      },
+      "description": {
+        "default": "Sign in to iFlytek Loomy with a phone number and an SMS code inside the OAuth dialog's own panel. The plugin runs a loopback-only (127.0.0.1) local service that sends and verifies the code, so the token still comes from the host's poll hook. Uses Loomy's OpenAI-compatible model gateway. Requires Snow App 0.5.6+. Session lasts 14 days with no refresh.",
+        "zh-CN": "在 OAuth 登录弹窗自带的 panel 里用手机号 + 短信验证码登录讯飞 Loomy：适配层起一个只监听 127.0.0.1 的本地服务负责发码与验码，令牌仍由宿主轮询取得。登录后使用其 OpenAI 兼容模型网关。需要 Snow App 0.5.6+。会话 14 天，无续期。",
+        "zh-TW": "在 OAuth 登入彈窗自帶的 panel 裡用手機號 + 簡訊驗證碼登入訊飛 Loomy：適配層起一個只監聽 127.0.0.1 的本機服務負責發碼與驗碼，權杖仍由宿主輪詢取得。登入後使用其 OpenAI 相容模型閘道。需要 Snow App 0.5.6+。工作階段 14 天，無續期。"
+      },
+      "repo": "https://github.com/xb0or/snow-plugins",
+      "version": "0.1.0",
+      "tag": "loomy-oauth/v0.1.0",
+      "asset": "loomy-oauth-0.1.0.zip",
+      "sha256": "781e94ce4149e6860182eef296e6a86bd2cb2327690cfb75ed5bb1ea1b6e6b00",
+      "author": "kedou",
+      "privacy": [],
+      "tags": [
+        "oauth",
+        "loomy",
+        "iflytek",
+        "phone-code",
+        "sign-in",
+        "panel"
+      ],
+      "icon": "lucide:KeyRound"
+    },
+    {
+      "id": "raccoon-oauth",
+      "kind": "plugin",
+      "name": {
+        "default": "Raccoon Sign-in",
+        "zh-CN": "商汤小浣熊登录",
+        "zh-TW": "商湯小浣熊登入"
+      },
+      "description": {
+        "default": "Sign in to SenseTime Raccoon from one panel, two ways: open the desktop authorization page and let the 127.0.0.1 callback finish automatically, or paste the office-raccoon:// callback link (or a JWT access token) back into the panel. Requires Snow App 0.5.6+.",
+        "zh-CN": "在单一 panel 里用两种方式登录商汤小浣熊：点「打开授权页」在浏览器授权后由 127.0.0.1 本地回调自动完成，或把 office-raccoon:// 回调链接（也支持 JWT access token）粘回面板提交。需要 Snow App 0.5.6+。",
+        "zh-TW": "在單一 panel 裡用兩種方式登入商湯小浣熊：點「開啟授權頁」在瀏覽器授權後由 127.0.0.1 本機回呼自動完成，或把 office-raccoon:// 回呼連結（也支援 JWT access token）貼回面板提交。需要 Snow App 0.5.6+。"
+      },
+      "repo": "https://github.com/xb0or/snow-plugins",
+      "version": "0.1.0",
+      "tag": "raccoon-oauth/v0.1.0",
+      "asset": "raccoon-oauth-0.1.0.zip",
+      "sha256": "4e59bf1d666739f60d7bafa3bca6c5a0fcd52057961be96e9e2d4b6bdfeed421",
+      "author": "kedou",
+      "privacy": [],
+      "tags": [
+        "oauth",
+        "raccoon",
+        "sensetime",
+        "sign-in",
+        "panel",
+        "callback-paste"
+      ],
+      "icon": "lucide:KeyRound"
+    },
+    {
       "kind": "script",
       "id": "snow.copy-last-ai-message",
       "name": {
@@ -636,6 +696,36 @@
         "whisper"
       ],
       "icon": "lucide:Mic"
+    },
+    {
+      "id": "workbuddy-oauth",
+      "kind": "plugin",
+      "name": {
+        "default": "WorkBuddy Sign-in",
+        "zh-CN": "WorkBuddy 登录",
+        "zh-TW": "WorkBuddy 登入"
+      },
+      "description": {
+        "default": "Sign in to WorkBuddy China (copilot.tencent.com) or WorkBuddy Global (www.workbuddy.ai) from a single provider. The sign-in panel asks which site to use; the chosen site is stored on the profile, and refresh / models / quota / chat all follow it with the request origin rewritten per site. Requires Snow App 0.5.6+.",
+        "zh-CN": "一个 provider 覆盖 WorkBuddy 国内版（copilot.tencent.com）与国际版（www.workbuddy.ai）：登录 panel 里选站点，命中的站点记进档案，之后续期 / 模型 / 额度 / 对话都按它走，出站 URL 按站点改写 origin。需要 Snow App 0.5.6+。",
+        "zh-TW": "一個 provider 覆蓋 WorkBuddy 國內版（copilot.tencent.com）與國際版（www.workbuddy.ai）：登入 panel 裡選站點，命中的站點記進檔案，之後續期 / 模型 / 額度 / 對話都依它走，出站 URL 依站點改寫 origin。需要 Snow App 0.5.6+。"
+      },
+      "repo": "https://github.com/xb0or/snow-plugins",
+      "version": "0.1.0",
+      "tag": "workbuddy-oauth/v0.1.0",
+      "asset": "workbuddy-oauth-0.1.0.zip",
+      "sha256": "ab2ac960002c7ce90d73c5a7386fd71b20b66890566354d92c8b0bf929faa6cd",
+      "author": "kedou",
+      "privacy": [],
+      "tags": [
+        "oauth",
+        "workbuddy",
+        "tencent",
+        "multi-site",
+        "sign-in",
+        "panel"
+      ],
+      "icon": "lucide:KeyRound"
     }
   ]
 }
