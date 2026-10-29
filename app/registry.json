@@ -700,6 +700,34 @@
     },
     {
       "kind": "script",
+      "id": "snow.prompt-chips",
+      "name": {
+        "default": "Prompt Chips",
+        "zh-CN": "便捷提示词"
+      },
+      "description": {
+        "default": "Client script: render your own quick prompts as chips above the chat input, in the same row as other plugin buttons (placed first in that row). Click a chip to send that text to the current conversation; a settings switch can make it fill the input box instead so you confirm before sending. The gear icon opens a settings dialog to add, edit, reorder and delete prompts (deleting needs a second click). Prompts live in the script's private GM storage; no network access, colors follow the app theme.",
+        "zh-CN": "客户端脚本：把自定义的若干条提示词渲染成聊天输入框上方的芯片按钮（与语音等插件按钮同处一行、排在行首，不额外占行），点一下即以该条内容发送给当前会话；设置里可切换为「只填入输入框」，由你确认后再发送。条尾齿轮打开设置浮层：增删提示词、上下移动排序，删除需二次确认。提示词存在脚本私有 GM 存储，无网络请求，配色跟随应用主题。"
+      },
+      "author": "kedou",
+      "repo": "https://github.com/xb0or/snow-plugins",
+      "version": "1.0.0",
+      "tag": "prompt-chips/v1.0.0",
+      "asset": "snow-prompt-chips.user.js",
+      "sha256": "c66790f86cbef7d9d6a70e29f20d7cd635c6a4431e8c5c6dd091b7bb2df4fa8b",
+      "privacy": [
+        "conversations"
+      ],
+      "tags": [
+        "client-script",
+        "prompt",
+        "shortcut",
+        "chat-input"
+      ],
+      "icon": "lucide:Zap"
+    },
+    {
+      "kind": "script",
       "id": "snow.voice-io",
       "name": {
         "default": "Voice Input & Read Aloud",
