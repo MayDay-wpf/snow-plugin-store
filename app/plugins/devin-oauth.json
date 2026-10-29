@@ -1,0 +1,23 @@
+{
+  "id": "devin-oauth",
+  "kind": "plugin",
+  "name": {
+    "default": "Devin Sign-in",
+    "zh-CN": "Devin 登录",
+    "zh-TW": "Devin 登入"
+  },
+  "description": {
+    "default": "Sign in to Devin through the Devin CLI's browser PKCE flow, with the callback completing on 127.0.0.1. Chat works through a custom transport (Snow App 0.5.6+): each turn is handed to Devin's Connect RPC / protobuf layer, so streamed replies, tool calls and usage come from the same encoder the CLI uses. Models and quota are available too. The session token has no refresh. Typewriter streaming is bypassed, so the provider is marked \"custom transport\".",
+    "zh-CN": "通过 Devin CLI 的浏览器 PKCE 登录 Devin 订阅账号，回调在 127.0.0.1 自动完成。对话经插件的自定义传输接管（需 Snow App 0.5.6+）：每轮请求交给 Devin 的 Connect RPC / protobuf 层，流式回复、工具调用与用量都出自 CLI 同一套编解码；模型列表与额度面板同样可用。会话令牌无续期。接管会绕过宿主的打字机式流式，来源列表标注「自定义传输」。",
+    "zh-TW": "透過 Devin CLI 的瀏覽器 PKCE 登入 Devin 訂閱帳號，回呼在 127.0.0.1 自動完成。對話由外掛的自訂傳輸接管（需 Snow App 0.5.6+）：每一輪請求交給 Devin 的 Connect RPC / protobuf 層，串流回覆、工具呼叫與用量都出自 CLI 同一套編解碼；模型清單與額度面板同樣可用。工作階段權杖無續期。接管會略過宿主端的打字機式串流，來源清單標註「自訂傳輸」。"
+  },
+  "repo": "https://github.com/xb0or/snow-plugins",
+  "version": "0.2.0",
+  "tag": "devin-oauth/v0.2.0",
+  "asset": "devin-oauth-0.2.0.zip",
+  "sha256": "e72f62ce6f47c610165331e49f2e63f629137d56b8f7e8176efd0927a89408e1",
+  "author": "kedou",
+  "privacy": [],
+  "tags": ["oauth", "devin", "codeium", "sign-in", "protobuf"],
+  "icon": "lucide:KeyRound"
+}
