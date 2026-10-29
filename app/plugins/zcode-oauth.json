@@ -1,0 +1,23 @@
+{
+  "id": "zcode-oauth",
+  "kind": "plugin",
+  "name": {
+    "default": "ZCode Sign-in",
+    "zh-CN": "ZCode 登录",
+    "zh-TW": "ZCode 登入"
+  },
+  "description": {
+    "default": "Sign in to ZCode (Z.ai / BigModel GLM Coding Plan) through its browser sign-in. Individual and team-seat accounts speak plain Anthropic Messages; the Start Plan account's outbound disguise is applied by transformRequest and its refusal text by transformResponse. Models and quota are available. Requires Snow App 0.5.6+.",
+    "zh-CN": "通过 ZCode 的浏览器登录添加 Z.ai 或 BigModel（智谱）GLM Coding Plan 账号。个体订阅与团队席位走标准 Anthropic Messages；Start Plan 的出站伪装由 transformRequest 补齐，被拒文案由 transformResponse 处理。模型列表与额度面板可用。需要 Snow App 0.5.6+。",
+    "zh-TW": "透過 ZCode 的瀏覽器登入加入 Z.ai 或 BigModel（智譜）GLM Coding Plan 帳號。個人訂閱與團隊席次走標準 Anthropic Messages；Start Plan 的出站偽裝由 transformRequest 補齊，被拒文案由 transformResponse 處理。模型清單與額度面板可用。需要 Snow App 0.5.6+。"
+  },
+  "repo": "https://github.com/xb0or/snow-plugins",
+  "version": "0.1.0",
+  "tag": "zcode-oauth/v0.1.0",
+  "asset": "zcode-oauth-0.1.0.zip",
+  "sha256": "add715b6ba6b5a0c587fe17209cdb9157100039a0fa5fa113e3faaa87d051567",
+  "author": "kedou",
+  "privacy": [],
+  "tags": ["oauth", "zcode", "zai", "bigmodel", "glm", "sign-in"],
+  "icon": "lucide:KeyRound"
+}

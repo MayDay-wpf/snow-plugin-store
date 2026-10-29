@@ -1,0 +1,23 @@
+{
+  "id": "trae-oauth",
+  "kind": "plugin",
+  "name": {
+    "default": "Trae Sign-in",
+    "zh-CN": "Trae 登录",
+    "zh-TW": "Trae 登入"
+  },
+  "description": {
+    "default": "Sign in to Trae China (trae.cn) or Trae Global (trae.ai) through the IDE's browser sign-in; one plugin ships both providers. Chat works by translating Trae's private SSE: transformRequest rebuilds the outbound URL, body and IDE headers, onResponseChunk turns every private event into an OpenAI chat.completion.chunk, and transformResponse rewrites the whole-body error reply. Refresh, models and quota are available too. Requires Snow App 0.5.6+.",
+    "zh-CN": "一个插件同时提供 Trae 国内版（trae.cn）与国际版（trae.ai）两个 provider，走 Trae IDE 的浏览器登录。对话靠逐事件翻译 Trae 私有 SSE：transformRequest 重建出站 URL、请求体与 IDE 头，onResponseChunk 把每个私有事件翻成 OpenAI chat.completion.chunk，transformResponse 处理整段错误正文。续期、模型列表与额度面板同样可用。需要 Snow App 0.5.6+。",
+    "zh-TW": "一個外掛同時提供 Trae 國內版（trae.cn）與國際版（trae.ai）兩個 provider，走 Trae IDE 的瀏覽器登入。對話靠逐事件翻譯 Trae 私有 SSE：transformRequest 重建出站 URL、請求主體與 IDE 標頭，onResponseChunk 把每個私有事件翻成 OpenAI chat.completion.chunk，transformResponse 處理整段錯誤回應。續期、模型清單與額度面板同樣可用。需要 Snow App 0.5.6+。"
+  },
+  "repo": "https://github.com/xb0or/snow-plugins",
+  "version": "0.1.0",
+  "tag": "trae-oauth/v0.1.0",
+  "asset": "trae-oauth-0.1.0.zip",
+  "sha256": "7b6e06043f0788fa00734f5eccac2019f32106f3c66625ab5b369c500f6419ec",
+  "author": "kedou",
+  "privacy": [],
+  "tags": ["oauth", "trae", "sign-in", "sse", "multi-site"],
+  "icon": "lucide:KeyRound"
+}
