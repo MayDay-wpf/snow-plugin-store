@@ -458,6 +458,42 @@
       "icon": "lucide:Route"
     },
     {
+      "id": "com.snow.token-meter",
+      "kind": "script",
+      "name": {
+        "default": "Token Usage Gauge",
+        "zh-CN": "Token 用量仪表",
+        "zh-TW": "Token 用量儀表"
+      },
+      "description": {
+        "default": "Client script plugin: a persistent capsule at the top center of the window (or a topbar badge) showing today's tokens and the cost estimated from catalog list prices, with today / last 7 days / last 30 days / all-time periods, per-model breakdown, cache hit rate, OpenRouter and models.dev price catalogs, manual model mapping and K/M/B compact counts.",
+        "zh-CN": "客户端脚本插件：常驻窗口顶部中间与顶栏同一行的胶囊（也可切成顶栏徽标），显示今日 token 与按目录挂牌价估算的花费；含今日 / 近 7 天 / 近 30 天 / 全部四个周期、按模型拆分、缓存命中率，价格目录可选 OpenRouter 或 models.dev，支持手动模型映射与 K/M/B 紧凑计数。",
+        "zh-TW": "客戶端腳本外掛：常駐視窗頂部中間與頂欄同一行的膠囊（也可切成頂欄徽標），顯示今日 token 與依目錄掛牌價估算的花費；含今日 / 近 7 天 / 近 30 天 / 全部四個週期、依模型拆分、快取命中率，價格目錄可選 OpenRouter 或 models.dev，支援手動模型映射與 K/M/B 緊湊計數。"
+      },
+      "author": "azhu949",
+      "repo": "https://github.com/azhu949/snow-plugins",
+      "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-token-meter",
+      "version": "1.0.0",
+      "tag": "token-meter/v1.0.0",
+      "asset": "snow-token-meter.user.js",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/token-meter%2Fv1.0.0/snow-token-meter.user.js",
+      "sha256": "4ec64b6e2f0444338cacdc7eb85a0a9c877195cbd3af34489d668825c8a9f94a",
+      "icon": "lucide:Gauge",
+      "privacy": [
+        "usage"
+      ],
+      "tags": [
+        "client-script",
+        "usage",
+        "tokens",
+        "cost",
+        "pricing",
+        "openrouter",
+        "用量",
+        "成本"
+      ]
+    },
+    {
       "id": "com.snowai.mimo-tts",
       "kind": "plugin",
       "name": {
