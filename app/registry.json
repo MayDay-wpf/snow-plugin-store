@@ -772,15 +772,15 @@
         "zh-CN": "会话统计条"
       },
       "description": {
-        "default": "Client script: a centered pill row right below the chat input showing the current session's turns and steps, first-token / output speed, cache hit rate, input and output tokens, and session cost. The cost pill opens a per-model breakdown (four token buckets, unit prices, price source, snapshot time). Prices are read from the Usage Cost plugin's published snapshot, falling back to the same built-in price rules when no snapshot exists. The cache hit rate uses exactly the same source and formula as the composer's token usage ring (runtime.tokenUsage, cacheRead = min(cacheRead, input), one decimal), while turns / input / output / cost use the whole-session billing view from usage records - both rates are listed in the popover. Every pill can be toggled independently, the refresh interval is selectable (3s / 5s / 10s), and the row hides itself on a new chat.",
-        "zh-CN": "客户端脚本：在聊天输入框正下方居中显示一行药丸，展示当前会话的轮次与步数、首 token 与输出速度、缓存命中率、输入输出 token 与会话成本。点成本药丸展开按模型拆分的明细（四桶 token、单价、单价来源、快照时间）。单价读取「成本核算看板」发布的快照，读不到时回落到同一套内置规则。缓存命中率与输入框右侧用量环同源同公式（runtime.tokenUsage，cacheRead = min(cacheRead, input)，保留 1 位小数），轮次 / 输入输出 / 成本则走 usage 明细的全会话账单口径，两个命中率都在浮层里列出。五个药丸可单独开关，刷新间隔可选 3s / 5s / 10s，新会话时整行自动隐藏。"
+        "default": "Client script: a centered pill row right below the chat input showing the current session's turns and steps, instantaneous output speed, cache hit rate, input and output tokens, and session cost. The speed pill uses a 3-second sliding window (streamTokenCount delta over actual span) instead of the cumulative average. The cost pill opens a per-model breakdown (four token buckets, unit prices, price source, snapshot time). Prices are read from the Usage Cost plugin's published snapshot, falling back to the same built-in price rules when no snapshot exists. The cache hit rate uses exactly the same source and formula as the composer's token usage ring (runtime.tokenUsage, cacheRead = min(cacheRead, input), one decimal), while turns / input / output / cost use the whole-session billing view from usage records - both rates are listed in the popover. Every pill can be toggled independently, the refresh interval is selectable (3s / 5s / 10s), and the row hides itself on a new chat.",
+        "zh-CN": "客户端脚本：在聊天输入框正下方居中显示一行药丸，展示当前会话的轮次与步数、瞬时输出速度、缓存命中率、输入输出 token 与会话成本。速度药丸用 3 秒滑动窗口（streamTokenCount 增量 ÷ 实际跨度）计算瞬时 TPS，不再用累计平均口径；点成本药丸展开按模型拆分的明细（四桶 token、单价、单价来源、快照时间）；单价读取「成本核算看板」发布的快照，读不到时回落到同一套内置规则；缓存命中率与输入框右侧用量环同源同公式（runtime.tokenUsage，cacheRead = min(cacheRead, input)，保留 1 位小数），轮次 / 输入输出 / 成本则走 usage 明细的全会话账单口径，两个命中率都在浮层里列出。五个药丸可单独开关，刷新间隔可选 3s / 5s / 10s，新会话时整行自动隐藏。"
       },
       "author": "kedou",
       "repo": "https://github.com/xb0or/snow-plugins",
-      "version": "1.0.2",
-      "tag": "session-stats-pills/v1.0.2",
+      "version": "1.0.3",
+      "tag": "session-stats-pills/v1.0.3",
       "asset": "snow-session-stats-pills.user.js",
-      "sha256": "6491d72f9d31eddbb093f017b58caeab6e1343114c5345c03d4f07694c433748",
+      "sha256": "4e4a56e87cdbdf021c09e0a638a9205fe9862a43b06784ed8381fcddab355161",
       "privacy": [
         "messages",
         "usage"
