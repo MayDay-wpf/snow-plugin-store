@@ -6,14 +6,14 @@
     "zh-CN": "成本核算看板"
   },
   "description": {
-    "default": "Estimate API usage cost from usage statistics with built-in / OpenRouter-synced per-model prices, daily cost chart and CSV export.",
-    "zh-CN": "读取使用量统计，按内置官方刊例/OpenRouter 换算单价估算各模型 API 使用成本，支持每日成本条形图与 CSV 导出，可一键从 OpenRouter 同步价格。"
+    "default": "Estimate API usage cost from usage statistics with built-in / OpenRouter-synced per-model prices, daily cost chart and CSV export. Publishes its normalized price table as a snapshot for client scripts (e.g. session-stats-pills).",
+    "zh-CN": "读取使用量统计，按内置官方刊例/OpenRouter 换算单价估算各模型 API 使用成本，支持每日成本条形图与 CSV 导出，可一键从 OpenRouter 同步价格；并把归一化价格表发布为快照，供客户端脚本（如「会话统计条」）复用同一套单价。"
   },
   "repo": "https://github.com/xb0or/snow-plugins",
-  "version": "1.2.3",
-  "tag": "usage-cost/v1.2.3",
-  "asset": "com.seagull.usage-cost-1.2.3.zip",
-  "sha256": "e2367f9aedfa87bfdebfef2772022274c7a03973d2aa26d24dd0cf67ee43a049",
+  "version": "1.2.4",
+  "tag": "usage-cost/v1.2.4",
+  "asset": "com.seagull.usage-cost-1.2.4.zip",
+  "sha256": "ed1f3ee7b94ada9ca49a6985f39bbfddf622d43a820eb594dc61475dc96b4e43",
   "author": "kedou",
   "privacy": [
     "usage",
