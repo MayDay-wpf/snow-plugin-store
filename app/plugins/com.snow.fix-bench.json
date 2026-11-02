@@ -1,5 +1,5 @@
 {
-  "sha256": "772efae8f27ac8e9c6cae32390c2d97769403628159284f8e585f7630a6a2388",
+  "sha256": "e7e2c50eed7ab777afc2059eb60cfad9aca45cdefd361afdfb08dff2e3ac26a3",
   "id": "com.snow.fix-bench",
   "privacy": [
     "conversations",
@@ -7,11 +7,11 @@
     "git",
     "mcpSecrets"
   ],
-  "version": "2.14.0",
+  "version": "2.14.1",
   "kind": "script",
-  "tag": "fix-bench/v2.14.0",
+  "tag": "fix-bench/v2.14.1",
   "author": "azhu949",
-  "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.14.0/snow-fix-bench.user.js",
+  "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.14.1/snow-fix-bench.user.js",
   "name": {
     "zh-TW": "修復工作台",
     "default": "Fix Bench",
