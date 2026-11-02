@@ -40,6 +40,37 @@
       "icon": "lucide:FolderTree"
     },
     {
+      "id": "com.seagull.annotate-board",
+      "kind": "plugin",
+      "name": {
+        "default": "Annotate Board",
+        "zh-CN": "批注工作台",
+        "zh-TW": "批註工作台"
+      },
+      "description": {
+        "default": "Annotation workspace inside a Snow panel: import images (drag / pick / paste) or video, annotate regions, move and resize them, explode layouts, then export feedback JSON, annotated PNG or a project ZIP into the workspace and write the JSON straight back into the chat composer. Saved projects are listed for one-click re-import. The panel runs in an iframe so the upstream styles stay isolated, and exports go through the Snow bridge because native downloads and the clipboard API do not work inside an iframe. Ships third-party front-end code licensed under PolyForm Noncommercial 1.0.0 (non-commercial use only).",
+        "zh-CN": "批注工作台：导入图片（拖入 / 选择 / 粘贴）或视频，做区域批注、移动缩放与大爆炸布局，导出反馈 JSON / 标注 PNG / 项目 ZIP 到工作区，并把 JSON 直接回填聊天草稿；保存过的项目会进「最近项目」列表，可一键重新导入。面板以 iframe 隔离上游样式，导出统一经 Snow 桥落盘（原生下载与剪贴板在 iframe 内不可用）。内含按 PolyForm Noncommercial 1.0.0 授权的第三方前端代码，仅限非商业用途。",
+        "zh-TW": "批註工作台：匯入圖片（拖入 / 選擇 / 貼上）或影片，做區域批註、移動縮放與大爆炸佈局，匯出回饋 JSON / 標註 PNG / 專案 ZIP 到工作區，並把 JSON 直接回填聊天草稿；儲存過的專案會進「最近專案」清單，可一鍵重新匯入。面板以 iframe 隔離上游樣式，匯出統一經 Snow 橋落盤（原生下載與剪貼簿在 iframe 內不可用）。內含按 PolyForm Noncommercial 1.0.0 授權的第三方前端程式碼，僅限非商業用途。"
+      },
+      "repo": "https://github.com/xb0or/snow-plugins",
+      "version": "0.1.0",
+      "tag": "annotate-board/v0.1.0",
+      "asset": "com.seagull.annotate-board-0.1.0.zip",
+      "sha256": "b5a1c2c4ea03404b099378591140a04110c2e660e464ecf6f4e5eb6c41711b17",
+      "author": "kedou",
+      "privacy": [
+        "filesystem"
+      ],
+      "tags": [
+        "annotation",
+        "feedback",
+        "image",
+        "screenshot",
+        "panel"
+      ],
+      "icon": "lucide:PenTool"
+    },
+    {
       "id": "com.seagull.side-ask",
       "kind": "plugin",
       "name": {
@@ -288,7 +319,7 @@
       "minAppVersion": "0.4.24"
     },
     {
-      "sha256": "be67ef19f4e450dd0ab3ad9e6f5e4cdc2f55145ba50cd4662795f9740159802e",
+      "sha256": "772efae8f27ac8e9c6cae32390c2d97769403628159284f8e585f7630a6a2388",
       "id": "com.snow.fix-bench",
       "privacy": [
         "conversations",
@@ -296,11 +327,11 @@
         "git",
         "mcpSecrets"
       ],
-      "version": "2.13.4",
+      "version": "2.14.0",
       "kind": "script",
-      "tag": "fix-bench/v2.13.4",
+      "tag": "fix-bench/v2.14.0",
       "author": "azhu949",
-      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.13.4/snow-fix-bench.user.js",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.14.0/snow-fix-bench.user.js",
       "name": {
         "zh-TW": "修復工作台",
         "default": "Fix Bench",
@@ -319,9 +350,9 @@
       "icon": "lucide:Wrench",
       "repo": "https://github.com/azhu949/snow-plugins",
       "description": {
-        "zh-TW": "客戶端腳本外掛：聊天輸入框工具列扳手入口與置中浮層工作台，涵蓋程式碼審查、issue 追蹤、批次修復與結果清理的閉環；issue 依專案隔離儲存在腳本私有儲存。",
-        "default": "Client script plugin: a floating workbench opened from the chat input toolbar, covering code review, issue tracking, batch fixing and result cleanup; issues are stored per project in the script's private storage.",
-        "zh-CN": "客户端脚本插件：聊天输入框工具栏扳手入口与居中浮层工作台，覆盖代码审查、issue 跟踪、批量修复与结果清理的闭环；issue 按项目隔离保存在脚本私有存储。"
+        "zh-TW": "客戶端腳本外掛：聊天輸入框工具列扳手入口與置中浮層工作台，涵蓋程式碼審查、issue 追蹤、批次修復與結果清理的閉環；另帶視窗頂部可拖動的跨專案執行監控面板，issue 依專案隔離儲存在腳本私有儲存。",
+        "default": "Client script plugin: a floating workbench opened from the chat input toolbar, covering code review, issue tracking, batch fixing and result cleanup, plus a draggable cross-project execution monitor at the top of the window; issues are stored per project in the script's private storage.",
+        "zh-CN": "客户端脚本插件：聊天输入框工具栏扳手入口与居中浮层工作台，覆盖代码审查、issue 跟踪、批量修复与结果清理的闭环；另带窗口顶部可拖动的跨项目执行监控面板，issue 按项目隔离保存在脚本私有存储。"
       },
       "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-fix-bench"
     },
