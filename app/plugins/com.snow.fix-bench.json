@@ -1,5 +1,5 @@
 {
-  "sha256": "be67ef19f4e450dd0ab3ad9e6f5e4cdc2f55145ba50cd4662795f9740159802e",
+  "sha256": "7c0e0d757477a06d54a5da6d53c2cd8cb33af05b0ab98ace5db811b652907941",
   "id": "com.snow.fix-bench",
   "privacy": [
     "conversations",
@@ -7,11 +7,11 @@
     "git",
     "mcpSecrets"
   ],
-  "version": "2.13.4",
+  "version": "2.14.0",
   "kind": "script",
-  "tag": "fix-bench/v2.13.4",
+  "tag": "fix-bench/v2.14.0",
   "author": "azhu949",
-  "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.13.4/snow-fix-bench.user.js",
+  "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.14.0/snow-fix-bench.user.js",
   "name": {
     "zh-TW": "修復工作台",
     "default": "Fix Bench",
@@ -30,9 +30,9 @@
   "icon": "lucide:Wrench",
   "repo": "https://github.com/azhu949/snow-plugins",
   "description": {
-    "zh-TW": "客戶端腳本外掛：聊天輸入框工具列扳手入口與置中浮層工作台，涵蓋程式碼審查、issue 追蹤、批次修復與結果清理的閉環；issue 依專案隔離儲存在腳本私有儲存。",
-    "default": "Client script plugin: a floating workbench opened from the chat input toolbar, covering code review, issue tracking, batch fixing and result cleanup; issues are stored per project in the script's private storage.",
-    "zh-CN": "客户端脚本插件：聊天输入框工具栏扳手入口与居中浮层工作台，覆盖代码审查、issue 跟踪、批量修复与结果清理的闭环；issue 按项目隔离保存在脚本私有存储。"
+    "zh-TW": "客戶端腳本外掛：聊天輸入框工具列扳手入口與置中浮層工作台，涵蓋程式碼審查、issue 追蹤、批次修復與結果清理的閉環；另帶視窗頂部可拖動的跨專案執行監控面板，issue 依專案隔離儲存在腳本私有儲存。",
+    "default": "Client script plugin: a floating workbench opened from the chat input toolbar, covering code review, issue tracking, batch fixing and result cleanup, plus a draggable cross-project execution monitor at the top of the window; issues are stored per project in the script's private storage.",
+    "zh-CN": "客户端脚本插件：聊天输入框工具栏扳手入口与居中浮层工作台，覆盖代码审查、issue 跟踪、批量修复与结果清理的闭环；另带窗口顶部可拖动的跨项目执行监控面板，issue 按项目隔离保存在脚本私有存储。"
   },
   "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-fix-bench"
 }
