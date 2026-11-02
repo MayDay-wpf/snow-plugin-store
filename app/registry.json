@@ -266,10 +266,10 @@
       "author": "ShiroEirin",
       "repo": "https://github.com/ShiroEirin/snow-wechat-panel",
       "homepage": "https://github.com/ShiroEirin/snow-wechat-panel",
-      "version": "0.32.29",
-      "tag": "v0.32.29",
-      "asset": "com.shiroeirin.wechat-feed-0.32.29.zip",
-      "sha256": "df5322a7519fbc7cbfae0fb09afa72f033c7fa5aac8685e1b8e2b5e38a85fc3a",
+      "version": "0.32.32",
+      "tag": "v0.32.32",
+      "asset": "com.shiroeirin.wechat-feed-0.32.32.zip",
+      "sha256": "d8222fa3398265a8087374c0664b425262102da453bc0ce384e80366fd9d942e",
       "privacy": [
         "mcpSecrets",
         "conversations",
@@ -319,7 +319,7 @@
       "minAppVersion": "0.4.24"
     },
     {
-      "sha256": "772efae8f27ac8e9c6cae32390c2d97769403628159284f8e585f7630a6a2388",
+      "sha256": "e7e2c50eed7ab777afc2059eb60cfad9aca45cdefd361afdfb08dff2e3ac26a3",
       "id": "com.snow.fix-bench",
       "privacy": [
         "conversations",
@@ -327,11 +327,11 @@
         "git",
         "mcpSecrets"
       ],
-      "version": "2.14.0",
+      "version": "2.14.1",
       "kind": "script",
-      "tag": "fix-bench/v2.14.0",
+      "tag": "fix-bench/v2.14.1",
       "author": "azhu949",
-      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.14.0/snow-fix-bench.user.js",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/fix-bench%2Fv2.14.1/snow-fix-bench.user.js",
       "name": {
         "zh-TW": "修復工作台",
         "default": "Fix Bench",
