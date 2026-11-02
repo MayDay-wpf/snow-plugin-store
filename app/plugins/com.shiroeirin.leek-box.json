@@ -1,0 +1,33 @@
+{
+  "id": "com.shiroeirin.leek-box",
+  "kind": "plugin",
+  "name": {
+    "default": "Leek Box",
+    "zh-CN": "韭菜盒子"
+  },
+  "description": {
+    "default": "One panel for fund NAV, A-share/US/HK quotes and crypto: intraday and candlestick charts, a cost-basis trading ledger (buy/sell/realized P&L), market sessions, symbol search, portfolio overview and CSV export, plus a personal resource library.",
+    "zh-CN": "一个面板装下基金、行情与大饼：净值、实时报价、分时与日 K 蜡烛图、按成本价记账的买入/卖出与浮动/已实现盈亏、行内记仓、组合总览与导出 CSV、交易时段状态、名称/拼音搜索，另有可自定义的资源库。数据源为公开接口，仅通过 api.net.fetch 读取。"
+  },
+  "author": "ShiroEirin",
+  "repo": "https://github.com/ShiroEirin/snow-leek-box",
+  "homepage": "https://github.com/ShiroEirin/snow-leek-box",
+  "version": "1.3.2",
+  "tag": "v1.3.2",
+  "asset": "snow-leek-box-v1.3.2.zip",
+  "sha256": "1c38b290900dcec3088b25171492a2df8cf8b2282037eb998404daf78ce6bda3",
+  "privacy": [
+    "network"
+  ],
+  "tags": [
+    "stock",
+    "fund",
+    "crypto",
+    "finance",
+    "行情",
+    "基金",
+    "持仓",
+    "kline"
+  ],
+  "icon": "lucide:Sprout"
+}
