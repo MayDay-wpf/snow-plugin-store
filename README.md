@@ -57,7 +57,7 @@ CI 校验通过并由维护者合并后，客户端在「插件 → 插件市场
 | 字段 | 必填 | 说明 |
 | --- | --- | --- |
 | `id` | 是 | 插件唯一 ID，必须与 `plugin.json` 的 `id` 完全一致；字母、数字、点、短横线、下划线，最长 96 |
-| `kind` | 否 | 条目类型：`plugin`（面板插件，默认）或 `script`（用户脚本）；脚本的 Release 资产是 `.user.js` 文件本身 |
+| `kind` | 否 | 条目类型：`plugin`（面板插件，默认）、`oauth`（OAuth 登录插件）、`tool`（工具插件）或 `script`（用户脚本）；脚本的 Release 资产是 `.user.js` 文件本身，其余类型分发 zip |
 | `name` | 是 | 展示名，字符串或本地化对象（如 `{"default": "...", "zh-CN": "..."}`） |
 | `description` | 是 | 简介，格式同上 |
 | `repo` | 是 | 插件仓库地址，形如 `https://github.com/owner/repo` |
