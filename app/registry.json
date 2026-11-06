@@ -394,22 +394,24 @@
       "kind": "plugin",
       "name": {
         "default": "Hongguo Shorts",
+        "en": "Hongguo Shorts",
         "zh-CN": "红果短剧",
         "zh-TW": "紅果短劇"
       },
       "description": {
-        "default": "Hongguo short-drama panel: recommendations, search, series details, episode list, in-panel WebCodecs decoding with quality switching, and resume history. The panel talks only to this plugin own loopback-HTTP background service; the background reads public catalogue and playback data via the unofficial anonymous openhongguo SDK. No account, no upload, no host data access.",
-        "zh-CN": "红果短剧面板：推荐、搜索、详情、分集、本机 WebCodecs 解码播放与清晰度切换、续播历史。面板只与本插件自己的回环 HTTP 后台服务通信；后台通过非官方匿名 SDK openhongguo 读取公开目录与播放数据。不登录账号、不上传数据、不读取宿主数据。",
-        "zh-TW": "紅果短劇面板：推薦、搜尋、詳情、分集、本機 WebCodecs 解碼播放與清晰度切換、續播歷史。面板只與本外掛自己的回環 HTTP 後台服務通訊；後台透過非官方匿名 SDK openhongguo 讀取公開目錄與播放資料。不登入帳號、不上傳資料、不讀取宿主資料。"
+        "default": "Short-drama panel for Hongguo: recommendations, search, series details, episode list, in-panel WebCodecs decoding with quality switching, and resume history. The panel talks only to this plugin's own background service over a loopback-only HTTP channel; the background uses the unofficial anonymous openhongguo SDK to read public catalogue and playback data. No account, no upload, no host data access.",
+        "en": "Short-drama panel for Hongguo: recommendations, search, series details, episode list, in-panel WebCodecs decoding with quality switching, and resume history. The panel talks only to this plugin's own background service over a loopback-only HTTP channel; the background uses the unofficial anonymous openhongguo SDK to read public catalogue and playback data. No account, no upload, no host data access.",
+        "zh-CN": "红果短剧面板：推荐、搜索、详情、分集、本机 WebCodecs 解码播放与清晰度切换、续播历史。面板只与本插件自己的后台服务通信（仅监听 127.0.0.1 的回环 HTTP 通道）；后台使用非官方匿名 SDK openhongguo 读取红果短剧的公开目录与播放数据。不登录账号、不上传任何数据、不读取宿主数据。",
+        "zh-TW": "紅果短劇面板：推薦、搜尋、詳情、分集、本機 WebCodecs 解碼播放與清晰度切換、續播歷史。面板只與本外掛自己的後台服務通訊（僅監聽 127.0.0.1 的回環 HTTP 通道）；後台使用非官方匿名 SDK openhongguo 讀取紅果短劇的公開目錄與播放資料。不登入帳號、不上傳任何資料、不讀取宿主資料。"
       },
-      "author": "azhu949",
+      "author": "Snow App",
       "repo": "https://github.com/azhu949/snow-plugins",
       "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-hongguo",
-      "version": "0.1.0",
-      "tag": "hongguo/v0.1.0",
-      "asset": "com.snow.hongguo-0.1.0.zip",
-      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/hongguo%2Fv0.1.0/com.snow.hongguo-0.1.0.zip",
-      "sha256": "60cb743c799515ef7794bef465af1cde6546448415cb8658c9ebb8666c809a69",
+      "version": "0.1.1",
+      "tag": "hongguo/v0.1.1",
+      "asset": "com.snow.hongguo-0.1.1.zip",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/hongguo%2Fv0.1.1/com.snow.hongguo-0.1.1.zip",
+      "sha256": "77eb7bee07156645d610026a78eed57c23c25318402f56f2c8fef695ff32ee52",
       "privacy": [
         "network"
       ],
@@ -424,7 +426,8 @@
         "红果",
         "播放器"
       ],
-      "icon": "lucide:Film"
+      "icon": "lucide:Film",
+      "minAppVersion": "0.5.12"
     },
     {
       "id": "com.snow.novel-reader",
