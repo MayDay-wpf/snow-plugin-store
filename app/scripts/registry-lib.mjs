@@ -31,10 +31,9 @@ const validateEntry = (entry, label, errors) => {
 
   if (
     entry.kind !== undefined &&
-    entry.kind !== "plugin" &&
-    entry.kind !== "script"
+    !["plugin", "oauth", "tool", "script"].includes(entry.kind)
   ) {
-    errors.push(`${label}.kind must be "plugin" or "script"`);
+    errors.push(`${label}.kind must be "plugin", "oauth", "tool" or "script"`);
   }
 
   if (!isLocalizedText(entry.name)) {
