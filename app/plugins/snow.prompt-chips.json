@@ -11,10 +11,10 @@
   },
   "author": "kedou",
   "repo": "https://github.com/xb0or/snow-plugins",
-  "version": "1.0.2",
-  "tag": "prompt-chips/v1.0.2",
+  "version": "1.0.3",
+  "tag": "prompt-chips/v1.0.3",
   "asset": "snow-prompt-chips.user.js",
-  "sha256": "9d05ce62032aede0c07c92febb68dd84ae160ec331c518e3eac1b6a087d5b89a",
+  "sha256": "f39a63828788492dcafccc7e6a06d789d36147836f56b2766dd95486951ddad1",
   "privacy": ["conversations"],
   "tags": ["client-script", "prompt", "shortcut", "chat-input"],
   "icon": "lucide:Zap"
