@@ -1,0 +1,37 @@
+{
+  "id": "com.snow.hongguo",
+  "kind": "plugin",
+  "name": {
+    "default": "Hongguo Shorts",
+    "zh-CN": "红果短剧",
+    "zh-TW": "紅果短劇"
+  },
+  "description": {
+    "default": "Hongguo short-drama panel: recommendations, search, series details, episode list, in-panel WebCodecs decoding with quality switching, and resume history. The panel talks only to this plugin own loopback-HTTP background service; the background reads public catalogue and playback data via the unofficial anonymous openhongguo SDK. No account, no upload, no host data access.",
+    "zh-CN": "红果短剧面板：推荐、搜索、详情、分集、本机 WebCodecs 解码播放与清晰度切换、续播历史。面板只与本插件自己的回环 HTTP 后台服务通信；后台通过非官方匿名 SDK openhongguo 读取公开目录与播放数据。不登录账号、不上传数据、不读取宿主数据。",
+    "zh-TW": "紅果短劇面板：推薦、搜尋、詳情、分集、本機 WebCodecs 解碼播放與清晰度切換、續播歷史。面板只與本外掛自己的回環 HTTP 後台服務通訊；後台透過非官方匿名 SDK openhongguo 讀取公開目錄與播放資料。不登入帳號、不上傳資料、不讀取宿主資料。"
+  },
+  "author": "azhu949",
+  "repo": "https://github.com/azhu949/snow-plugins",
+  "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-hongguo",
+  "version": "0.1.0",
+  "tag": "hongguo/v0.1.0",
+  "asset": "com.snow.hongguo-0.1.0.zip",
+  "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/hongguo%2Fv0.1.0/com.snow.hongguo-0.1.0.zip",
+  "sha256": "60cb743c799515ef7794bef465af1cde6546448415cb8658c9ebb8666c809a69",
+  "privacy": [
+    "network"
+  ],
+  "tags": [
+    "short-drama",
+    "drama",
+    "video",
+    "player",
+    "webcodecs",
+    "hongguo",
+    "短剧",
+    "红果",
+    "播放器"
+  ],
+  "icon": "lucide:Film"
+}
