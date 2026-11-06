@@ -1,0 +1,29 @@
+{
+  "id": "com.snow.github-tools",
+  "name": {
+    "default": "GitHub",
+    "en": "GitHub",
+    "zh-CN": "GitHub",
+    "zh-TW": "GitHub"
+  },
+  "description": {
+    "default": "GitHub tools with built-in result cards for repositories, issues, commits, pull requests, files, code search, releases, Actions, GraphQL, comments, reviews and remote writes.",
+    "en": "GitHub tools with built-in result cards for repositories, issues, commits, pull requests, files, code search, releases, Actions, GraphQL, comments, reviews and remote writes.",
+    "zh-CN": "GitHub 工具，自带结果卡片：查询仓库、议题、提交、PR、文件、代码与 Actions，执行 GraphQL，并支持评论、审查、Revert PR、Release 资产和远端写操作。",
+    "zh-TW": "GitHub 工具，自帶結果卡片：查詢儲存庫、議題、提交、PR、檔案、程式碼與 Actions，執行 GraphQL，並支援評論、審查、Revert PR、Release 資產和遠端寫操作。"
+  },
+  "repo": "https://github.com/BaSui01/snow-plugins",
+  "homepage": "https://github.com/BaSui01/snow-plugins/tree/main/plugins/github-tools",
+  "author": "BaSui",
+  "minAppVersion": "0.5.12",
+  "version": "0.4.1",
+  "tag": "github-tools/v0.4.1",
+  "asset": "github-tools-0.4.1.zip",
+  "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/github-tools%2Fv0.4.1/github-tools-0.4.1.zip",
+  "sha256": "dc7e3285f616e29bb526c3fcd77aa1d1478fd9cbb1127abfdacbda2fc8c9b901",
+  "privacy": [
+    "network",
+    "messages"
+  ],
+  "kind": "tool"
+}
