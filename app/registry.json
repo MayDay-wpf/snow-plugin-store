@@ -407,11 +407,11 @@
       "author": "Snow App",
       "repo": "https://github.com/azhu949/snow-plugins",
       "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-hongguo",
-      "version": "0.1.1",
-      "tag": "hongguo/v0.1.1",
-      "asset": "com.snow.hongguo-0.1.1.zip",
-      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/hongguo%2Fv0.1.1/com.snow.hongguo-0.1.1.zip",
-      "sha256": "77eb7bee07156645d610026a78eed57c23c25318402f56f2c8fef695ff32ee52",
+      "version": "0.1.2",
+      "tag": "hongguo/v0.1.2",
+      "asset": "com.snow.hongguo-0.1.2.zip",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/hongguo%2Fv0.1.2/com.snow.hongguo-0.1.2.zip",
+      "sha256": "667fd95cf06dce28a454911924debe4520341a40e7dd286ca78f045ff2c790ff",
       "privacy": [
         "network"
       ],
@@ -853,10 +853,10 @@
       },
       "author": "kedou",
       "repo": "https://github.com/xb0or/snow-plugins",
-      "version": "1.0.2",
-      "tag": "prompt-chips/v1.0.2",
+      "version": "1.0.3",
+      "tag": "prompt-chips/v1.0.3",
       "asset": "snow-prompt-chips.user.js",
-      "sha256": "9d05ce62032aede0c07c92febb68dd84ae160ec331c518e3eac1b6a087d5b89a",
+      "sha256": "f39a63828788492dcafccc7e6a06d789d36147836f56b2766dd95486951ddad1",
       "privacy": [
         "conversations"
       ],
