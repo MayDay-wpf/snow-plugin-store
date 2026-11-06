@@ -341,11 +341,11 @@
       "repo": "https://github.com/BaSui01/snow-plugins",
       "homepage": "https://github.com/BaSui01/snow-plugins/tree/main/plugins/external-tool-renderer",
       "author": "BaSui",
-      "version": "0.3.2",
-      "tag": "external-tool-renderer/v0.3.2",
-      "asset": "external-tool-renderer-0.3.2.zip",
-      "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/external-tool-renderer%2Fv0.3.2/external-tool-renderer-0.3.2.zip",
-      "sha256": "305d6b548e7930efd6f0ec93a43cfd38b28f3e63f53c2524de69bf9627713c3f",
+      "version": "0.3.4",
+      "tag": "external-tool-renderer/v0.3.4",
+      "asset": "external-tool-renderer-0.3.4.zip",
+      "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/external-tool-renderer%2Fv0.3.4/external-tool-renderer-0.3.4.zip",
+      "sha256": "9dc65936e15a1d95a0dd4cdce31896abfac517263998913b4dadf6bbc1c922ab",
       "privacy": [
         "messages"
       ],
@@ -388,6 +388,35 @@
         "zh-CN": "客户端脚本插件：聊天输入框工具栏扳手入口与居中浮层工作台，覆盖代码审查、issue 跟踪、批量修复与结果清理的闭环；另带窗口顶部可拖动的跨项目执行监控面板，issue 按项目隔离保存在脚本私有存储。"
       },
       "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-fix-bench"
+    },
+    {
+      "id": "com.snow.github-tools",
+      "name": {
+        "default": "GitHub",
+        "en": "GitHub",
+        "zh-CN": "GitHub",
+        "zh-TW": "GitHub"
+      },
+      "description": {
+        "default": "GitHub tools with built-in result cards for repositories, issues, commits, pull requests, files, code search, releases, Actions, GraphQL, comments, reviews and remote writes.",
+        "en": "GitHub tools with built-in result cards for repositories, issues, commits, pull requests, files, code search, releases, Actions, GraphQL, comments, reviews and remote writes.",
+        "zh-CN": "GitHub 工具，自带结果卡片：查询仓库、议题、提交、PR、文件、代码与 Actions，执行 GraphQL，并支持评论、审查、Revert PR、Release 资产和远端写操作。",
+        "zh-TW": "GitHub 工具，自帶結果卡片：查詢儲存庫、議題、提交、PR、檔案、程式碼與 Actions，執行 GraphQL，並支援評論、審查、Revert PR、Release 資產和遠端寫操作。"
+      },
+      "repo": "https://github.com/BaSui01/snow-plugins",
+      "homepage": "https://github.com/BaSui01/snow-plugins/tree/main/plugins/github-tools",
+      "author": "BaSui",
+      "minAppVersion": "0.5.12",
+      "version": "0.4.1",
+      "tag": "github-tools/v0.4.1",
+      "asset": "github-tools-0.4.1.zip",
+      "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/github-tools%2Fv0.4.1/github-tools-0.4.1.zip",
+      "sha256": "dc7e3285f616e29bb526c3fcd77aa1d1478fd9cbb1127abfdacbda2fc8c9b901",
+      "privacy": [
+        "network",
+        "messages"
+      ],
+      "kind": "tool"
     },
     {
       "id": "com.snow.hongguo",
@@ -482,11 +511,11 @@
       "author": "BaSui01",
       "repo": "https://github.com/BaSui01/snow-plugins",
       "homepage": "https://github.com/BaSui01/snow-plugins/tree/main/plugins/prompt-optimizer",
-      "version": "1.4.2",
-      "tag": "prompt-optimizer/v1.4.2",
-      "asset": "prompt-optimizer-1.4.2.zip",
-      "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/prompt-optimizer%2Fv1.4.2/prompt-optimizer-1.4.2.zip",
-      "sha256": "ac2c7fee5e0fbefa9a678932c591d834477fbf4e7511b1f714e4d689bba0a873",
+      "version": "1.4.3",
+      "tag": "prompt-optimizer/v1.4.3",
+      "asset": "prompt-optimizer-1.4.3.zip",
+      "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/prompt-optimizer%2Fv1.4.3/prompt-optimizer-1.4.3.zip",
+      "sha256": "b2215603f29d8d8ec564c8f3cecdf8af7f5b1581beb50c108e238b1ce70cef22",
       "privacy": [
         "messages",
         "projectContext"
