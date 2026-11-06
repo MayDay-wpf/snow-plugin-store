@@ -14,11 +14,11 @@
   "author": "BaSui01",
   "repo": "https://github.com/BaSui01/snow-plugins",
   "homepage": "https://github.com/BaSui01/snow-plugins/tree/main/plugins/prompt-optimizer",
-  "version": "1.4.2",
-  "tag": "prompt-optimizer/v1.4.2",
-  "asset": "prompt-optimizer-1.4.2.zip",
-  "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/prompt-optimizer%2Fv1.4.2/prompt-optimizer-1.4.2.zip",
-  "sha256": "ac2c7fee5e0fbefa9a678932c591d834477fbf4e7511b1f714e4d689bba0a873",
+  "version": "1.4.3",
+  "tag": "prompt-optimizer/v1.4.3",
+  "asset": "prompt-optimizer-1.4.3.zip",
+  "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/prompt-optimizer%2Fv1.4.3/prompt-optimizer-1.4.3.zip",
+  "sha256": "b2215603f29d8d8ec564c8f3cecdf8af7f5b1581beb50c108e238b1ce70cef22",
   "privacy": [
     "messages",
     "projectContext"
