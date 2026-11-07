@@ -8,19 +8,19 @@
     "zh-TW": "紅果短劇"
   },
   "description": {
-    "default": "Short-drama panel for Hongguo: recommendations, search, series details, episode list, in-panel WebCodecs decoding with quality switching, and resume history. The panel talks only to this plugin's own background service over a loopback-only HTTP channel; the background uses the unofficial anonymous openhongguo SDK to read public catalogue and playback data. No account, no upload, no host data access.",
-    "en": "Short-drama panel for Hongguo: recommendations, search, series details, episode list, in-panel WebCodecs decoding with quality switching, and resume history. The panel talks only to this plugin's own background service over a loopback-only HTTP channel; the background uses the unofficial anonymous openhongguo SDK to read public catalogue and playback data. No account, no upload, no host data access.",
-    "zh-CN": "红果短剧面板：推荐、搜索、详情、分集、本机 WebCodecs 解码播放与清晰度切换、续播历史。面板只与本插件自己的后台服务通信（仅监听 127.0.0.1 的回环 HTTP 通道）；后台使用非官方匿名 SDK openhongguo 读取红果短剧的公开目录与播放数据。不登录账号、不上传任何数据、不读取宿主数据。",
-    "zh-TW": "紅果短劇面板：推薦、搜尋、詳情、分集、本機 WebCodecs 解碼播放與清晰度切換、續播歷史。面板只與本外掛自己的後台服務通訊（僅監聽 127.0.0.1 的回環 HTTP 通道）；後台使用非官方匿名 SDK openhongguo 讀取紅果短劇的公開目錄與播放資料。不登入帳號、不上傳任何資料、不讀取宿主資料。"
+    "default": "Short-drama panel for Hongguo: recommendations, rankings, category filters, search, series details, episode list, in-panel WebCodecs decoding with quality switching, per-episode resume history, a watchlist, and saved playback preferences. The panel talks only to this plugin's own background service over a loopback-only HTTP channel; the background uses the unofficial anonymous openhongguo SDK to read public catalogue and playback data. No account, no upload, no host data access.",
+    "en": "Short-drama panel for Hongguo: recommendations, rankings, category filters, search, series details, episode list, in-panel WebCodecs decoding with quality switching, per-episode resume history, a watchlist, and saved playback preferences. The panel talks only to this plugin's own background service over a loopback-only HTTP channel; the background uses the unofficial anonymous openhongguo SDK to read public catalogue and playback data. No account, no upload, no host data access.",
+    "zh-CN": "红果短剧面板：推荐、排行、分类筛选、搜索、详情、分集、本机 WebCodecs 解码播放与清晰度切换、逐集续播历史、收藏追剧与播放偏好记忆。面板只与本插件自己的后台服务通信（仅监听 127.0.0.1 的回环 HTTP 通道）；后台使用非官方匿名 SDK openhongguo 读取红果短剧的公开目录与播放数据。不登录账号、不上传任何数据、不读取宿主数据。",
+    "zh-TW": "紅果短劇面板：推薦、排行、分類篩選、搜尋、詳情、分集、本機 WebCodecs 解碼播放與清晰度切換、逐集續播歷史、收藏追劇與播放偏好記憶。面板只與本外掛自己的後台服務通訊（僅監聽 127.0.0.1 的回環 HTTP 通道）；後台使用非官方匿名 SDK openhongguo 讀取紅果短劇的公開目錄與播放資料。不登入帳號、不上傳任何資料、不讀取宿主資料。"
   },
   "author": "Snow App",
   "repo": "https://github.com/azhu949/snow-plugins",
   "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-hongguo",
-  "version": "0.1.3",
-  "tag": "hongguo/v0.1.3",
-  "asset": "com.snow.hongguo-0.1.3.zip",
-  "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/hongguo%2Fv0.1.3/com.snow.hongguo-0.1.3.zip",
-  "sha256": "4564005f7a05d4dfacd0670b1040c6a4b80f9e1956aa079a54a07321c140d8bc",
+  "version": "0.1.5",
+  "tag": "hongguo/v0.1.5",
+  "asset": "com.snow.hongguo-0.1.5.zip",
+  "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/hongguo%2Fv0.1.5/com.snow.hongguo-0.1.5.zip",
+  "sha256": "9e53212ebf924764e7c8558c219f7e8b69cb5cbd3d145aab3af64f59939cffe4",
   "privacy": [
     "network"
   ],
@@ -31,9 +31,15 @@
     "player",
     "webcodecs",
     "hongguo",
+    "watchlist",
+    "ranking",
+    "category",
     "短剧",
     "红果",
-    "播放器"
+    "播放器",
+    "追剧",
+    "排行",
+    "分类"
   ],
   "icon": "lucide:Film",
   "minAppVersion": "0.5.12"
