@@ -436,11 +436,11 @@
       "author": "Snow App",
       "repo": "https://github.com/azhu949/snow-plugins",
       "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-hongguo",
-      "version": "0.1.7",
-      "tag": "hongguo/v0.1.7",
-      "asset": "com.snow.hongguo-0.1.7.zip",
-      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/hongguo%2Fv0.1.7/com.snow.hongguo-0.1.7.zip",
-      "sha256": "4c391824ef4e59b74f213100bc1dfa0ce8d039f8daa389be32001cfb0d563646",
+      "version": "0.1.8",
+      "tag": "hongguo/v0.1.8",
+      "asset": "com.snow.hongguo-0.1.8.zip",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/hongguo%2Fv0.1.8/com.snow.hongguo-0.1.8.zip",
+      "sha256": "d71051b62bd2fc9675b3a2b44055ad7cfd9686f033eb795672d30703fec22659",
       "privacy": [
         "network"
       ],
