@@ -324,6 +324,35 @@
       "icon": "lucide:MessageSquare"
     },
     {
+      "id": "com.snow.docker-tools",
+      "name": {
+        "default": "Docker",
+        "en": "Docker",
+        "zh-CN": "Docker",
+        "zh-TW": "Docker"
+      },
+      "description": {
+        "default": "Inspect and operate local Docker containers, images and Compose projects from the Agent.",
+        "en": "Inspect and operate local Docker containers, images and Compose projects from the Agent.",
+        "zh-CN": "在 Agent 中查看和操作本机 Docker 容器、镜像与 Compose 项目，支持日志、inspect、启停删、exec 和资源排查。",
+        "zh-TW": "在 Agent 中檢視和操作本機 Docker 容器、映像與 Compose 專案，支援日誌、inspect、啟停刪、exec 和資源排查。"
+      },
+      "repo": "https://github.com/BaSui01/snow-plugins",
+      "homepage": "https://github.com/BaSui01/snow-plugins/tree/main/plugins/docker-tools",
+      "author": "BaSui",
+      "minAppVersion": "0.5.12",
+      "version": "0.1.0",
+      "tag": "docker-tools/v0.1.0",
+      "asset": "docker-tools-0.1.0.zip",
+      "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/docker-tools%2Fv0.1.0/docker-tools-0.1.0.zip",
+      "sha256": "209214f1c5f98f93f716b15442f485097dbbff07dfb6c1986053f60030d2995b",
+      "privacy": [
+        "network",
+        "messages"
+      ],
+      "kind": "tool"
+    },
+    {
       "id": "com.snow.external-tool-renderer",
       "kind": "plugin",
       "name": {
