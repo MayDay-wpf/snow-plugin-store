@@ -1,0 +1,27 @@
+{
+  "id": "com.snow.ffmpeg-tools",
+  "name": {
+    "default": "FFmpeg media tools",
+    "en": "FFmpeg media tools",
+    "zh-CN": "FFmpeg 媒体工具",
+    "zh-TW": "FFmpeg 媒體工具"
+  },
+  "description": {
+    "default": "Drive this machine's ffmpeg/ffprobe from the agent: environment and capability checks, probing, black-frame/silence/scene analysis, transcoding with two-pass and rate control, trimming, frame grabs, GIF/WebP export, waveforms and spectrograms, effects and grading, crop and text, subtitle burn-in and muxing, metadata and chapters, concat and Ken Burns slideshows, overlay and audio mixing, HLS/DASH packaging and RTMP/SRT pushing, screen and device capture, plus a raw argv escape hatch. Local only, never uploads, and reports install guidance when ffmpeg is missing.",
+    "zh-CN": "在本机用 ffmpeg/ffprobe 处理你指定的图片、音频与视频：环境自检与能力查询、信息探测、黑帧/静音/场景等分析、转码压缩（含两遍编码与码率控制）、剪辑、抽帧、GIF/WebP 动图、波形与频谱图、特效调色、裁剪打字、字幕烧录与封装、元数据与章节、拼接与运镜幻灯片、图层与混音、HLS/DASH 打包与推流、录屏与设备采集，以及任意参数的兜底直通。默认不联网、不上传，未安装 ffmpeg 时给出安装引导。",
+    "zh-TW": "在本機用 ffmpeg/ffprobe 處理你指定的圖片、音訊與影片：環境自檢與能力查詢、資訊探測、黑幀／靜音／場景等分析、轉碼壓縮（含兩遍編碼與位元率控制）、剪輯、抽幀、GIF/WebP 動圖、波形與頻譜圖、特效調色、裁剪打字、字幕燒錄與封裝、中繼資料與章節、拼接與運鏡幻燈片、圖層與混音、HLS/DASH 打包與串流、螢幕與裝置擷取，以及任意參數的兜底直通。預設不連網、不上傳，未安裝 ffmpeg 時提供安裝引導。",
+    "en": "Drive this machine's ffmpeg/ffprobe from the agent: environment and capability checks, probing, black-frame/silence/scene analysis, transcoding with two-pass and rate control, trimming, frame grabs, GIF/WebP export, waveforms and spectrograms, effects and grading, crop and text, subtitle burn-in and muxing, metadata and chapters, concat and Ken Burns slideshows, overlay and audio mixing, HLS/DASH packaging and RTMP/SRT pushing, screen and device capture, plus a raw argv escape hatch. Local only, never uploads, and reports install guidance when ffmpeg is missing."
+  },
+  "repo": "https://github.com/BaSui01/snow-plugins",
+  "homepage": "https://github.com/BaSui01/snow-plugins/tree/main/plugins/ffmpeg-tools",
+  "author": "BaSui",
+  "version": "0.3.1",
+  "tag": "ffmpeg-tools/v0.3.1",
+  "asset": "ffmpeg-tools-0.3.1.zip",
+  "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/ffmpeg-tools%2Fv0.3.1/ffmpeg-tools-0.3.1.zip",
+  "sha256": "73219e2154255adeb111e94f8807d6058b59c57f7988ce32f0314f370926b1a2",
+  "privacy": [
+    "messages"
+  ],
+  "kind": "tool"
+}
