@@ -1,0 +1,21 @@
+{
+  "id": "com.seagull.rate-limits",
+  "kind": "plugin",
+  "name": {
+    "default": "Rate Metrics",
+    "zh-CN": "用量指标"
+  },
+  "description": {
+    "default": "Local usage panel with five rate metrics: RPD, TPD, RPM, ITPM and OTPM. Shows range averages, minute peaks and live rolling windows, with a pointer readout on the sparklines. Reads only the local usage domain and does not split by API profile.",
+    "zh-CN": "本机用量面板，统计 RPD / TPD / RPM / ITPM / OTPM 五个指标：区间均值、分钟峰值与实时滚动窗口，指针停在曲线上可读该时刻各指标数值。只读本机 usage 域，不区分 API 档案。"
+  },
+  "repo": "https://github.com/xb0or/snow-plugins",
+  "version": "0.7.0",
+  "tag": "rate-limits/v0.7.0",
+  "asset": "com.seagull.rate-limits-0.7.0.zip",
+  "sha256": "cb8d75cd5d439cbd284ee529818271f61a08a3998c9cf9baf8e436ca0f77806b",
+  "author": "kedou",
+  "privacy": ["usage"],
+  "tags": ["usage", "metrics", "rate-limit", "panel"],
+  "icon": "lucide:Gauge"
+}
