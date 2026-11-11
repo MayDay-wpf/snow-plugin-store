@@ -16,11 +16,11 @@
   "homepage": "https://github.com/BaSui01/snow-plugins/tree/main/plugins/github-tools",
   "author": "BaSui",
   "minAppVersion": "0.5.12",
-  "version": "0.4.1",
-  "tag": "github-tools/v0.4.1",
-  "asset": "github-tools-0.4.1.zip",
-  "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/github-tools%2Fv0.4.1/github-tools-0.4.1.zip",
-  "sha256": "dc7e3285f616e29bb526c3fcd77aa1d1478fd9cbb1127abfdacbda2fc8c9b901",
+  "version": "0.5.2",
+  "tag": "github-tools/v0.5.2",
+  "asset": "github-tools-0.5.2.zip",
+  "downloadUrl": "https://github.com/BaSui01/snow-plugins/releases/download/github-tools%2Fv0.5.2/github-tools-0.5.2.zip",
+  "sha256": "e13f306fa39b1537c80d65acef16d853703859d8b1af2c0403492e8ed4184d62",
   "privacy": [
     "network",
     "messages"
