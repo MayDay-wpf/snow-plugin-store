@@ -229,14 +229,14 @@
         "zh-CN": "任务中心"
       },
       "description": {
-        "default": "Industry-convention TPS/TTFT metrics plus a live overview of all running sessions (including sub-agents).",
-        "zh-CN": "按行业口径计算 TPS/TTFT，并汇总全部运行中会话（含子代理）的实时状态。"
+        "default": "Industry-convention TPS/TTFT metrics aggregated across all conversations, plus a live overview of every running session (including sub-agents).",
+        "zh-CN": "按行业口径计算 TPS/TTFT 并汇总全部会话，实时总览所有运行中会话（含子代理）的状态与所用模型。"
       },
       "repo": "https://github.com/xb0or/snow-plugins",
-      "version": "0.2.1",
-      "tag": "tps-metrics/v0.2.1",
-      "asset": "com.seagull.tps-metrics-0.2.1.zip",
-      "sha256": "660e05901048d37b88a58508d65878c045ee22a98ba327ea83a6f4ac911ba0bc",
+      "version": "0.3.1",
+      "tag": "tps-metrics/v0.3.1",
+      "asset": "com.seagull.tps-metrics-0.3.1.zip",
+      "sha256": "5410e70e8e4218db15dd22163b0b5050c9610900590ae9386b0af68642734f56",
       "author": "kedou",
       "privacy": [
         "conversations"
