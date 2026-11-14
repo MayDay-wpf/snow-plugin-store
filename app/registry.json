@@ -563,18 +563,18 @@
         "zh-TW": "小說閱讀器"
       },
       "description": {
-        "default": "Novel reader with a floating TXT reading window (adjustable opacity and position, wheel and hotkey paging, auto hide on mouse leave, chapter detection and auto scroll), plus legado book-source import, multi-source search and online chapter reading with caching.",
-        "zh-CN": "小说阅读器：悬浮 TXT 阅读窗（可调透明度与显示位置、滚轮与快捷键翻页、鼠标移入显示移出隐藏、章节识别与自动滚动），并支持导入 legado 书源、多源并发搜索、在线追书与章节缓存。",
-        "zh-TW": "小說閱讀器：懸浮 TXT 閱讀窗（可調不透明度與顯示位置、滾輪與快捷鍵翻頁，滑鼠移入顯示移出隱藏、章節識別與自動捲動），並支援匯入 legado 書源、多源並發搜尋、線上追書與章節快取。"
+        "default": "Novel reader with a floating TXT reading window (adjustable opacity and position, wheel and hotkey paging, auto hide on mouse leave, chapter detection and auto scroll, in-window source switching), plus legado book-source import, multi-source search and online chapter reading with caching.",
+        "zh-CN": "小说阅读器：悬浮 TXT 阅读窗（可调透明度与显示位置、滚轮与快捷键翻页、鼠标移入显示移出隐藏、章节识别与自动滚动、悬浮窗换源），并支持导入 legado 书源、多源并发搜索、在线追书与章节缓存。",
+        "zh-TW": "小說閱讀器：懸浮 TXT 閱讀窗（可調不透明度與顯示位置、滾輪與快捷鍵翻頁，滑鼠移入顯示移出隱藏、章節識別與自動捲動、懸浮窗換源），並支援匯入 legado 書源、多源並發搜尋、線上追書與章節快取。"
       },
       "author": "azhu949",
       "repo": "https://github.com/azhu949/snow-plugins",
       "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-novel-reader",
-      "version": "1.3.0",
-      "tag": "novel-reader/v1.3.0",
-      "asset": "com.snow.novel-reader-1.3.0.zip",
-      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/novel-reader%2Fv1.3.0/com.snow.novel-reader-1.3.0.zip",
-      "sha256": "e2074b3447aa16886feefe14602f9aaaae80b77cb5b6653c02be64322ac428aa",
+      "version": "1.3.1",
+      "tag": "novel-reader/v1.3.1",
+      "asset": "com.snow.novel-reader-1.3.1.zip",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/novel-reader%2Fv1.3.1/com.snow.novel-reader-1.3.1.zip",
+      "sha256": "c877d5d3c624c1fc0cc704f275d7e97e20153a6bb7c4e61c2141bc8d05af1bdc",
       "privacy": [
         "network"
       ],
