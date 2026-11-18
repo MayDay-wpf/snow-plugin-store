@@ -512,19 +512,19 @@
         "zh-TW": "紅果短劇"
       },
       "description": {
-        "default": "Short-drama panel for Hongguo: recommendations, rankings, category filters, trending searches, suggestions, automatic search pagination, series details, episode list, in-panel WebCodecs decoding with quality switching, parallel startup loading, next-episode prefetch, per-episode resume history, a watchlist, and saved playback preferences. The panel talks only to this plugin's own background service over a loopback-only HTTP channel; the background uses the unofficial anonymous openhongguo SDK to read public catalogue and playback data. No account, no upload, no host data access.",
-        "en": "Short-drama panel for Hongguo: recommendations, rankings, category filters, trending searches, suggestions, automatic search pagination, series details, episode list, in-panel WebCodecs decoding with quality switching, parallel startup loading, next-episode prefetch, per-episode resume history, a watchlist, and saved playback preferences. The panel talks only to this plugin's own background service over a loopback-only HTTP channel; the background uses the unofficial anonymous openhongguo SDK to read public catalogue and playback data. No account, no upload, no host data access.",
-        "zh-CN": "红果短剧面板：推荐、排行、分类筛选、热搜、输入联想、搜索触底加载、详情、分集、本机 WebCodecs 解码播放与清晰度切换、起播并行读取、下一集预加载、逐集续播历史、收藏追剧与播放偏好记忆。面板只与本插件自己的后台服务通信（仅监听 127.0.0.1 的回环 HTTP 通道）；后台使用非官方匿名 SDK openhongguo 读取红果短剧的公开目录与播放数据。不登录账号、不上传任何数据、不读取宿主数据。",
-        "zh-TW": "紅果短劇面板：推薦、排行、分類篩選、熱搜、輸入聯想、搜尋觸底載入、詳情、分集、本機 WebCodecs 解碼播放與清晰度切換、起播並行讀取、下一集預載入、逐集續播歷史、收藏追劇與播放偏好記憶。面板只與本外掛自己的後台服務通訊（僅監聽 127.0.0.1 的回環 HTTP 通道）；後台使用非官方匿名 SDK openhongguo 讀取紅果短劇的公開目錄與播放資料。不登入帳號、不上傳任何資料、不讀取宿主資料。"
+        "default": "Short-drama panel for Hongguo: recommendations, rankings, category filters, trending searches, suggestions, automatic search pagination, series details with multi-season switching, episode list, in-panel WebCodecs decoding with quality switching, parallel startup loading, next-episode prefetch, per-episode resume history, a watchlist, and saved playback preferences. The panel talks only to this plugin's own background service over a loopback-only HTTP channel; the background uses the unofficial anonymous openhongguo SDK to read public catalogue and playback data. No account, no upload, no host data access.",
+        "en": "Short-drama panel for Hongguo: recommendations, rankings, category filters, trending searches, suggestions, automatic search pagination, series details with multi-season switching, episode list, in-panel WebCodecs decoding with quality switching, parallel startup loading, next-episode prefetch, per-episode resume history, a watchlist, and saved playback preferences. The panel talks only to this plugin's own background service over a loopback-only HTTP channel; the background uses the unofficial anonymous openhongguo SDK to read public catalogue and playback data. No account, no upload, no host data access.",
+        "zh-CN": "红果短剧面板：推荐、排行、分类筛选、热搜、输入联想、搜索触底加载、详情与多季切换、分集、本机 WebCodecs 解码播放与清晰度切换、起播并行读取、下一集预加载、逐集续播历史、收藏追剧与播放偏好记忆。面板只与本插件自己的后台服务通信（仅监听 127.0.0.1 的回环 HTTP 通道）；后台使用非官方匿名 SDK openhongguo 读取红果短剧的公开目录与播放数据。不登录账号、不上传任何数据、不读取宿主数据。",
+        "zh-TW": "紅果短劇面板：推薦、排行、分類篩選、熱搜、輸入聯想、搜尋觸底載入、詳情與多季切換、分集、本機 WebCodecs 解碼播放與清晰度切換、起播並行讀取、下一集預載入、逐集續播歷史、收藏追劇與播放偏好記憶。面板只與本外掛自己的後台服務通訊（僅監聽 127.0.0.1 的回環 HTTP 通道）；後台使用非官方匿名 SDK openhongguo 讀取紅果短劇的公開目錄與播放資料。不登入帳號、不上傳任何資料、不讀取宿主資料。"
       },
       "author": "Snow App",
       "repo": "https://github.com/azhu949/snow-plugins",
       "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-hongguo",
-      "version": "0.1.8",
-      "tag": "hongguo/v0.1.8",
-      "asset": "com.snow.hongguo-0.1.8.zip",
-      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/hongguo%2Fv0.1.8/com.snow.hongguo-0.1.8.zip",
-      "sha256": "d71051b62bd2fc9675b3a2b44055ad7cfd9686f033eb795672d30703fec22659",
+      "version": "0.1.9",
+      "tag": "hongguo/v0.1.9",
+      "asset": "com.snow.hongguo-0.1.9.zip",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/hongguo%2Fv0.1.9/com.snow.hongguo-0.1.9.zip",
+      "sha256": "0bc907fe1b43ae3e07e592ace0032e985ccd5e0b90f3b01690b81233ed3947b5",
       "privacy": [
         "network"
       ],
@@ -542,6 +542,8 @@
         "trending",
         "prefetch",
         "heic",
+        "multi-season",
+        "season",
         "短剧",
         "红果",
         "播放器",
@@ -549,7 +551,8 @@
         "排行",
         "分类",
         "搜索",
-        "热搜"
+        "热搜",
+        "多季"
       ],
       "icon": "lucide:Film",
       "minAppVersion": "0.5.12"
@@ -722,6 +725,39 @@
         "litellm",
         "用量",
         "成本"
+      ]
+    },
+    {
+      "id": "com.snow.translator",
+      "kind": "script",
+      "name": {
+        "default": "Translator",
+        "zh-CN": "翻译助手",
+        "zh-TW": "翻譯助手"
+      },
+      "description": {
+        "default": "Client script plugin: a translate icon in the chat input toolbar opens a floating translator with automatic source/target detection, automatic translation, copy and drag-to-remember position; it also translates selected chat text, translates AI replies with one click from the message action bar, and moves drafts in and out of the input box. Ships Google, Microsoft Edge, Baidu, DeepL and OpenAI-compatible engines with free-engine fallback.",
+        "zh-CN": "客户端脚本插件：聊天输入工具栏的翻译图标打开浮层翻译，支持源语言 / 目标语言自动检测与自动翻译、复制译文、拖拽定位记忆；还可划词翻译聊天消息、在消息操作栏一键翻译 AI 回复，并把草稿读入浮层或把译文写回输入框。内置谷歌、微软 Edge、百度、DeepL 与大模型五引擎，主引擎失败时回退免费引擎。",
+        "zh-TW": "客戶端腳本外掛：聊天輸入工具列的翻譯圖示開啟浮層翻譯，支援來源語言 / 目標語言自動偵測與自動翻譯、複製譯文、拖曳定位記憶；還可劃詞翻譯聊天訊息、在訊息操作列一鍵翻譯 AI 回覆，並把草稿讀入浮層或把譯文寫回輸入框。內建 Google、微軟 Edge、百度、DeepL 與大模型五個引擎，主引擎失敗時回退免費引擎。"
+      },
+      "author": "azhu949",
+      "repo": "https://github.com/azhu949/snow-plugins",
+      "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-translator",
+      "version": "0.1.0",
+      "tag": "translator/v0.1.0",
+      "asset": "snow-translator.user.js",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/translator%2Fv0.1.0/snow-translator.user.js",
+      "sha256": "dc42831412620ec018d96ea1e06b611140f0a0d1dd3c778bc219bcfd050b0907",
+      "icon": "lucide:Languages",
+      "privacy": [],
+      "tags": [
+        "client-script",
+        "translate",
+        "translation",
+        "deepl",
+        "openai",
+        "翻译",
+        "翻译助手"
       ]
     },
     {
