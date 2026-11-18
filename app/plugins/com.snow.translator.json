@@ -1,0 +1,25 @@
+{
+  "id": "com.snow.translator",
+  "kind": "script",
+  "name": {
+    "default": "Translator",
+    "zh-CN": "翻译助手",
+    "zh-TW": "翻譯助手"
+  },
+  "description": {
+    "default": "Client script plugin: a translate icon in the chat input toolbar opens a floating translator with automatic source/target detection, automatic translation, copy and drag-to-remember position; it also translates selected chat text, translates AI replies with one click from the message action bar, and moves drafts in and out of the input box. Ships Google, Microsoft Edge, Baidu, DeepL and OpenAI-compatible engines with free-engine fallback.",
+    "zh-CN": "客户端脚本插件：聊天输入工具栏的翻译图标打开浮层翻译，支持源语言 / 目标语言自动检测与自动翻译、复制译文、拖拽定位记忆；还可划词翻译聊天消息、在消息操作栏一键翻译 AI 回复，并把草稿读入浮层或把译文写回输入框。内置谷歌、微软 Edge、百度、DeepL 与大模型五引擎，主引擎失败时回退免费引擎。",
+    "zh-TW": "客戶端腳本外掛：聊天輸入工具列的翻譯圖示開啟浮層翻譯，支援來源語言 / 目標語言自動偵測與自動翻譯、複製譯文、拖曳定位記憶；還可劃詞翻譯聊天訊息、在訊息操作列一鍵翻譯 AI 回覆，並把草稿讀入浮層或把譯文寫回輸入框。內建 Google、微軟 Edge、百度、DeepL 與大模型五個引擎，主引擎失敗時回退免費引擎。"
+  },
+  "author": "azhu949",
+  "repo": "https://github.com/azhu949/snow-plugins",
+  "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-translator",
+  "version": "0.1.0",
+  "tag": "translator/v0.1.0",
+  "asset": "snow-translator.user.js",
+  "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/translator%2Fv0.1.0/snow-translator.user.js",
+  "sha256": "dc42831412620ec018d96ea1e06b611140f0a0d1dd3c778bc219bcfd050b0907",
+  "icon": "lucide:Languages",
+  "privacy": [],
+  "tags": ["client-script", "translate", "translation", "deepl", "openai", "翻译", "翻译助手"]
+}
