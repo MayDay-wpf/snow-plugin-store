@@ -918,6 +918,42 @@
       "icon": "lucide:KeyRound"
     },
     {
+      "id": "snow-auto-title",
+      "kind": "script",
+      "name": {
+        "default": "Auto-update Chat Titles",
+        "zh-CN": "随对话更新会话标题",
+        "zh-TW": "隨對話更新會話標題"
+      },
+      "description": {
+        "default": "Renames the conversation after every reply so the title reflects what you talked about; also adds a manual “Rename with AI” action.",
+        "zh-CN": "每轮对话结束后自动把会话标题改成能概括聊天内容的名字；也可以右键手动「AI 重命名」。",
+        "zh-TW": "每輪對話結束後自動把會話標題改成能概括聊天內容的名稱；也可以右鍵手動「AI 重新命名」。"
+      },
+      "repo": "https://github.com/timoforge/snow-auto-title",
+      "version": "1.0.1",
+      "tag": "v1.0.1",
+      "asset": "snow-auto-title-1.0.1.user.js",
+      "sha256": "93b8d47c8fc1df3e5d16bf307d450700cfdb2857453fad35300b2343a733a1e9",
+      "author": "Timofey",
+      "homepage": "https://github.com/timoforge/snow-auto-title",
+      "privacy": [
+        "conversations",
+        "messages",
+        "apiKeys",
+        "customHeaders",
+        "network"
+      ],
+      "tags": [
+        "title",
+        "rename",
+        "conversation",
+        "ai",
+        "script"
+      ],
+      "icon": "lucide:Tags"
+    },
+    {
       "kind": "script",
       "id": "snow.copy-last-ai-message",
       "name": {
