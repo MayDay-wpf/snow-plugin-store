@@ -1137,10 +1137,10 @@
       },
       "author": "kedou",
       "repo": "https://github.com/xb0or/snow-plugins",
-      "version": "2.4.0",
-      "tag": "token-ring/v2.4.0",
+      "version": "2.4.9",
+      "tag": "token-ring/v2.4.9",
       "asset": "snow-token-ring.user.js",
-      "sha256": "52cce57bf75ff1162e65f99eb024cbc5ca79c6f9870d70967ba56b3453fa4414",
+      "sha256": "cfde8f7bc32b4d55f433b793dfcce948a0475dc99534aa7011c6f4a6359dd49a",
       "privacy": [
         "messages",
         "personalization",
