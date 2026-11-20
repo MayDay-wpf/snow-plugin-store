@@ -1,0 +1,43 @@
+{
+  "id": "com.snow.docker-panel",
+  "kind": "plugin",
+  "name": {
+    "default": "Docker",
+    "en": "Docker",
+    "zh-CN": "Docker",
+    "zh-TW": "Docker"
+  },
+  "description": {
+    "default": "Docker side panel: containers (list, start, stop, restart, pause, remove, logs, inspect, stats), images (list, pull, remove) with one-click upload of any local image to a remote server over SSH, the current project's Dockerfiles and compose files with a saved run configuration per Dockerfile (name, server, Dockerfile, context folder, image tag, plus opt-in build and run options such as platform, build args, port bindings, bind mounts, environment variables and extra run arguments) that can build and run a container in one click on a saved remote server over SSH, without a local Docker daemon, a remote tab that manages multiple SSH servers, and connection settings with auto detection and automatic retry while the engine is offline.",
+    "en": "Docker side panel: containers (list, start, stop, restart, pause, remove, logs, inspect, stats), images (list, pull, remove) with one-click upload of any local image to a remote server over SSH, the current project's Dockerfiles and compose files with a saved run configuration per Dockerfile (name, server, Dockerfile, context folder, image tag, plus opt-in build and run options such as platform, build args, port bindings, bind mounts, environment variables and extra run arguments) that can build and run a container in one click on a saved remote server over SSH, without a local Docker daemon, a remote tab that manages multiple SSH servers, and connection settings with auto detection and automatic retry while the engine is offline.",
+    "zh-CN": "Docker 面板：容器列表与启停重启暂停删除、日志、inspect 与资源占用；镜像列表与拉取/删除，并可在镜像行一键把本机镜像通过 SSH 上传到远程服务器（实时传输日志、可取消）；扫描当前项目的 Dockerfile 与 compose 文件，每个 Dockerfile 有一份可反复修改的运行配置（配置名称、服务器、Dockerfile、上下文文件夹、镜像标记，构建与运行的附加项按需勾选：平台、构建参数、端口绑定、挂载、环境变量、运行选项），可一键构建并运行容器，构建与运行只在已保存的远程服务器上执行（本机不需要 Docker daemon）；独立的「远程」标签页管理多台 SSH 服务器；连接配置与自动检测，引擎离线时自动重试。",
+    "zh-TW": "Docker 面板：容器列表與啟停重新啟動暫停刪除、日誌、inspect 與資源佔用；映像列表與拉取/刪除，並可在映像列一鍵把本機映像透過 SSH 上傳到遠端伺服器（即時傳輸日誌、可取消）；掃描目前專案的 Dockerfile 與 compose 檔案，每個 Dockerfile 有一份可反覆修改的執行設定（設定名稱、伺服器、Dockerfile、上下文資料夾、映像標記，建置與執行的附加項按需勾選：平台、建置參數、連接埠綁定、掛載、環境變數、執行選項），可一鍵建置並執行容器，建置與執行只在已儲存的遠端伺服器上執行（本機不需要 Docker daemon）；獨立的「遠端」分頁管理多台 SSH 伺服器；連線設定與自動偵測，引擎離線時自動重試。"
+  },
+  "author": "Snow App",
+  "repo": "https://github.com/azhu949/snow-plugins",
+  "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-docker",
+  "version": "0.1.0",
+  "tag": "docker-panel/v0.1.0",
+  "asset": "com.snow.docker-panel-0.1.0.zip",
+  "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/docker-panel%2Fv0.1.0/com.snow.docker-panel-0.1.0.zip",
+  "sha256": "7b75d6722ea576e67149eadbc3e52aa9060b45bde1787f4ef07adabf5a901873",
+  "privacy": [
+    "network"
+  ],
+  "tags": [
+    "docker",
+    "container",
+    "image",
+    "ssh",
+    "remote",
+    "compose",
+    "dockerfile",
+    "build",
+    "容器",
+    "镜像",
+    "远程",
+    "构建"
+  ],
+  "icon": "lucide:Container",
+  "minAppVersion": "0.5.12"
+}
