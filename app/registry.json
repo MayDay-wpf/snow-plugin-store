@@ -369,11 +369,11 @@
       "author": "Snow App",
       "repo": "https://github.com/azhu949/snow-plugins",
       "homepage": "https://github.com/azhu949/snow-plugins/tree/main/snow-docker",
-      "version": "0.1.1",
-      "tag": "docker-panel/v0.1.1",
-      "asset": "com.snow.docker-panel-0.1.1.zip",
-      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/docker-panel%2Fv0.1.1/com.snow.docker-panel-0.1.1.zip",
-      "sha256": "2b4ba8c25f609295b33515e1844ace9f3bd052916f6763bf13588dbedd13a5c8",
+      "version": "0.1.2",
+      "tag": "docker-panel/v0.1.2",
+      "asset": "com.snow.docker-panel-0.1.2.zip",
+      "downloadUrl": "https://github.com/azhu949/snow-plugins/releases/download/docker-panel%2Fv0.1.2/com.snow.docker-panel-0.1.2.zip",
+      "sha256": "709359c21595b087396e2086d3ed394e3c4d3a6f5ede0cd82356dbd4e46fb7c6",
       "privacy": [
         "network"
       ],
